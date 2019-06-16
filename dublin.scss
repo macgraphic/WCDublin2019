@@ -71,7 +71,8 @@ pre.wp-block-verse,
 .wp-block-button,
 .testimonial,
 .wp-block-table,
-.googlemaps {
+.googlemaps,
+[id^=contact-form-] {
 	width: 100%;
 	max-width: 72rem;
 	margin: 1rem auto;
