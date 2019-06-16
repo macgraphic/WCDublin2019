@@ -101,6 +101,9 @@ pre.wp-block-verse,
   margin: 1rem auto;
   padding-left: 2rem; }
 
+.youtube-player {
+  margin: auto; }
+
 table.tix_tickets_table {
   width: 100%;
   display: inline-table;
