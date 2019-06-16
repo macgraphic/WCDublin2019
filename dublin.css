@@ -46,7 +46,9 @@ pre.wp-block-verse,
 .wp-block-columns,
 .wp-block-gallery,
 .wp-block-button,
-.testimonial {
+.testimonial,
+.wp-block-table,
+.googlemaps {
   width: 100%;
   max-width: 72rem;
   margin: 1rem auto;
