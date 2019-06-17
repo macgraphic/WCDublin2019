@@ -52,7 +52,7 @@ pre.wp-block-verse,
 [id^=contact-form-],
 #comments,
 .navigation.post-navigation,
-.tix-js {
+#tix {
   width: 100%;
   max-width: 72rem;
   margin: 1rem auto;
