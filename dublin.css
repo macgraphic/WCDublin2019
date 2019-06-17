@@ -49,13 +49,10 @@ pre.wp-block-verse,
 .testimonial,
 .wp-block-table,
 .googlemaps,
-<<<<<<< HEAD
-[id^=contact-form-] {
-=======
 [id^=contact-form-],
 #comments,
-.navigation.post-navigation {
->>>>>>> 660b7b9f6c0978c6f68aa74942969167d99a9437
+.navigation.post-navigation,
+.tix-js {
   width: 100%;
   max-width: 72rem;
   margin: 1rem auto;
