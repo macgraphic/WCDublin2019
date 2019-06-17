@@ -57,6 +57,12 @@ pre.wp-block-verse,
   margin: 1rem auto;
   padding: 0 1rem; }
 
+.wp-block-embed {
+  margin: 1rem auto 2rem auto; }
+
+iframe {
+  margin: 0 auto; }
+
 .aligncenter {
   margin: 0 auto; }
 
