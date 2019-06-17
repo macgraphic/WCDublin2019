@@ -72,7 +72,10 @@ pre.wp-block-verse,
 .testimonial,
 .wp-block-table,
 .googlemaps,
-[id^=contact-form-]{
+[id^=contact-form-],
+#comments,
+.navigation.post-navigation
+{
 	width: 100%;
 	max-width: 72rem;
 	margin: 1rem auto;
