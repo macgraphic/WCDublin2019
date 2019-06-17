@@ -72,11 +72,22 @@ pre.wp-block-verse,
 .testimonial,
 .wp-block-table,
 .googlemaps,
-[id^=contact-form-] {
+[id^=contact-form-],
+#comments,
+.navigation.post-navigation {
 	width: 100%;
 	max-width: 72rem;
 	margin: 1rem auto;
 	padding: 0 1rem;
+}
+
+
+.wp-block-embed {
+	margin: 1rem auto 2rem auto;
+}
+
+iframe {
+	margin: 0 auto;
 }
 
 .aligncenter {
@@ -737,5 +748,3 @@ body.page-template-full-width #secondary {
 	}
 
 }
-
-

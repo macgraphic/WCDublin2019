@@ -49,11 +49,23 @@ pre.wp-block-verse,
 .testimonial,
 .wp-block-table,
 .googlemaps,
+<<<<<<< HEAD
 [id^=contact-form-] {
+=======
+[id^=contact-form-],
+#comments,
+.navigation.post-navigation {
+>>>>>>> 660b7b9f6c0978c6f68aa74942969167d99a9437
   width: 100%;
   max-width: 72rem;
   margin: 1rem auto;
   padding: 0 1rem; }
+
+.wp-block-embed {
+  margin: 1rem auto 2rem auto; }
+
+iframe {
+  margin: 0 auto; }
 
 .aligncenter {
   margin: 0 auto; }
