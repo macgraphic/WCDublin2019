@@ -517,6 +517,20 @@ body.page-template-full-width #secondary {
 		z-index: 5;
 		color: #fff;
 
+		.site-branding .site-title,
+		.site-branding .site-description {
+			width: 50%;
+			display: inline-block;
+		}
+
+		.site-branding .site-title {
+			text-align: left;
+		}
+
+		.site-branding .site-description {
+			text-align: right;
+		}
+
 
 		.custom-header {
 			width: 100%;
