@@ -9,7 +9,7 @@
 
 // lightBlue:		#97cade;		//	rgb(151,202,222)
 // medBlue:			#163180;		//  rgb(22,49,128)
-// darkBlue:		#1d0a69;		//	rgb(29,10,105)	
+// darkBlue:		#1d0a69;		//	rgb(29,10,105)
 // darkPurple:		#6E1799;		//	rgb(61,4,102)
 // brightPurple		#9C0076;		//	rgb(100,24,154)
 
@@ -69,7 +69,10 @@ pre.wp-block-verse,
 .wp-block-columns,
 .wp-block-gallery,
 .wp-block-button,
-.testimonial {
+.testimonial,
+.wp-block-table,
+.googlemaps,
+[id^=contact-form-]{
 	width: 100%;
 	max-width: 72rem;
 	margin: 1rem auto;
@@ -132,6 +135,10 @@ pre.wp-block-verse,
 .entry-content dl {
 	margin: 1rem auto;
 	padding-left: 2rem;
+}
+
+.youtube-player {
+	margin: auto;
 }
 
 // Tickets Table
@@ -264,7 +271,7 @@ table.wcpt-schedule {
 		color: #fff;
 		text-align: left;
 		padding: .5rem;
-	
+
 		tr th {
 			padding: .4rem;
 		}
@@ -343,7 +350,7 @@ table.wcpt-schedule {
 }
 
 
-// Organisers Page 
+// Organisers Page
 .wcorg-organizers {
 	.wcorg-organizer {
 		width: calc( 100% / 3 - 1rem);
@@ -367,7 +374,7 @@ table.wcpt-schedule {
 				display: block;
 				margin: 0 auto;
 			}
-		}	
+		}
 	}
 
 	.wcorg-organizer:hover {
@@ -395,7 +402,7 @@ body.page-slug-speakers .wcorg-speaker:last-child {
 	border-bottom: none;
 }
 
-// Full Width Page 
+// Full Width Page
 
 body.page-template-full-width #secondary {
 	display: none;
@@ -497,7 +504,7 @@ body.page-template-full-width #secondary {
 		left: 0;
 		z-index: 5;
 		color: #fff;
-	
+
 
 		.custom-header {
 			width: 100%;
@@ -514,7 +521,7 @@ body.page-template-full-width #secondary {
 			top: 0;
 			z-index: 4;
 			background: rgba(29,10,105,0);
-			
+
 			ul#primary-menu {
 				text-align: center;
 				margin: 0 auto;
@@ -540,7 +547,7 @@ body.page-template-full-width #secondary {
 				a:hover {
 					background: #97cade;
 				}
-				
+
 				ul.sub-menu {
 					background: #163180;
 					margin: 2rem 0 0 0;
@@ -688,7 +695,7 @@ body.page-template-full-width #secondary {
 				}
 			}
 
-			
+
 		}
 	}
 
@@ -730,5 +737,3 @@ body.page-template-full-width #secondary {
 	}
 
 }
-
-

@@ -46,7 +46,10 @@ pre.wp-block-verse,
 .wp-block-columns,
 .wp-block-gallery,
 .wp-block-button,
-.testimonial {
+.testimonial,
+.wp-block-table,
+.googlemaps,
+[id^=contact-form-] {
   width: 100%;
   max-width: 72rem;
   margin: 1rem auto;
@@ -98,6 +101,9 @@ pre.wp-block-verse,
 .entry-content dl {
   margin: 1rem auto;
   padding-left: 2rem; }
+
+.youtube-player {
+  margin: auto; }
 
 table.tix_tickets_table {
   width: 100%;
