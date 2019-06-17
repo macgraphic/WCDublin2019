@@ -517,17 +517,17 @@ body.page-template-full-width #secondary {
 		z-index: 5;
 		color: #fff;
 
-		.site-branding .site-title,
-		.site-branding .site-description {
+		.site-branding p.site-title,
+		.site-branding p.site-description {
 			width: 50%;
 			display: inline-block;
 		}
 
-		.site-branding .site-title {
+		.site-branding p.site-title {
 			text-align: left;
 		}
 
-		.site-branding .site-description {
+		.site-branding p.site-description {
 			text-align: right;
 		}
 

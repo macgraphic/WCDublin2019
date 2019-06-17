@@ -357,13 +357,13 @@ body.page-template-full-width #secondary {
     left: 0;
     z-index: 5;
     color: #fff; }
-    header#masthead .site-branding .site-title,
-    header#masthead .site-branding .site-description {
+    header#masthead .site-branding p.site-title,
+    header#masthead .site-branding p.site-description {
       width: 50%;
       display: inline-block; }
-    header#masthead .site-branding .site-title {
+    header#masthead .site-branding p.site-title {
       text-align: left; }
-    header#masthead .site-branding .site-description {
+    header#masthead .site-branding p.site-description {
       text-align: right; }
     header#masthead .custom-header {
       width: 100%;
