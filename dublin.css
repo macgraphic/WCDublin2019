@@ -357,6 +357,8 @@ body.page-template-full-width #secondary {
     left: 0;
     z-index: 5;
     color: #fff; }
+    header#masthead .site-branding {
+      display: flex; }
     header#masthead .site-branding p.site-title,
     header#masthead .site-branding p.site-description {
       width: 50%;

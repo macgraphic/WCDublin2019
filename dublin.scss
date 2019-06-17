@@ -517,6 +517,10 @@ body.page-template-full-width #secondary {
 		z-index: 5;
 		color: #fff;
 
+		.site-branding {
+			display: flex;
+		}
+
 		.site-branding p.site-title,
 		.site-branding p.site-description {
 			width: 50%;
