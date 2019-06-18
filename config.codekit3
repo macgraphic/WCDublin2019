@@ -20,7 +20,7 @@
 		"oS": 3
 		},
 	"/dublin.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -58,6 +58,32 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/scss/components/_components.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/_components.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/components/_subscribe_news.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/components/_subscribe_news.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [
@@ -67,7 +93,7 @@
 "projectAttributes": {
 	"creationDate": 582383940.68545496,
 	"displayValue": "WCDublin2019",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-punDog",
 	"iconImageWasSetByUser": 0
 	},

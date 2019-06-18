@@ -141,11 +141,6 @@ table.tix-attendee-form td.tix-right {
 table.tix-attendee-form th {
   font-weight: 700; }
 
-/* Hide on the ticket's page information about how many tickets of each type are left */
-.tix-column-remaining {
-  display: none;
-}
-
 p.no-comments {
   display: none; }
 
@@ -356,6 +351,7 @@ body.page-template-full-width #secondary {
   header#masthead {
     background: #163180;
     display: block;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     right: 0;
@@ -378,6 +374,8 @@ body.page-template-full-width #secondary {
       header#masthead #site-navigation ul#primary-menu {
         text-align: center;
         margin: 0 auto;
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
         display: inline-flex;
         text-align: left; }
         header#masthead #site-navigation ul#primary-menu li {
@@ -528,3 +526,12 @@ body.page-template-full-width #secondary {
           padding: .5rem;
           border-radius: .5rem .5rem 0 0;
           font-size: 1.125em; } }
+
+/* Import all component styles */
+/*--------------------------------------------------------------
+## Subscribe to News reusable block
+--------------------------------------------------------------*/
+.wp-block-jetpack-subscriptions .button {
+  background: #163180;
+  color: #fff;
+  font-size: 1em; }
