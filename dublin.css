@@ -52,7 +52,7 @@ pre.wp-block-verse,
 [id^=contact-form-],
 #comments,
 .navigation.post-navigation,
-.tix-js {
+#tix {
   width: 100%;
   max-width: 72rem;
   margin: 1rem auto;
@@ -358,6 +358,16 @@ body.page-template-full-width #secondary {
     left: 0;
     z-index: 5;
     color: #fff; }
+    header#masthead .site-branding {
+      display: flex; }
+    header#masthead .site-branding p.site-title,
+    header#masthead .site-branding p.site-description {
+      width: 50%;
+      display: inline-block; }
+    header#masthead .site-branding p.site-title {
+      text-align: left; }
+    header#masthead .site-branding p.site-description {
+      text-align: right; }
     header#masthead .custom-header {
       width: 100%;
       max-wdth: 75rem;

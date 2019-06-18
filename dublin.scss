@@ -75,7 +75,7 @@ pre.wp-block-verse,
 [id^=contact-form-],
 #comments,
 .navigation.post-navigation,
-.tix-js {
+#tix {
 	width: 100%;
 	max-width: 72rem;
 	margin: 1rem auto;
@@ -516,6 +516,24 @@ body.page-template-full-width #secondary {
 		left: 0;
 		z-index: 5;
 		color: #fff;
+
+		.site-branding {
+			display: flex;
+		}
+
+		.site-branding p.site-title,
+		.site-branding p.site-description {
+			width: 50%;
+			display: inline-block;
+		}
+
+		.site-branding p.site-title {
+			text-align: left;
+		}
+
+		.site-branding p.site-description {
+			text-align: right;
+		}
 
 
 		.custom-header {
