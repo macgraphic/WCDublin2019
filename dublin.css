@@ -141,6 +141,11 @@ table.tix-attendee-form td.tix-right {
 table.tix-attendee-form th {
   font-weight: 700; }
 
+/* Hide on the ticket's page information about how many tickets of each type are left */
+.tix-column-remaining {
+  display: none;
+}
+
 p.no-comments {
   display: none; }
 
