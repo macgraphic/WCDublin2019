@@ -17,29 +17,6 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/dublin.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/dublin-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/dublin.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/dublin.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
@@ -76,7 +53,7 @@
 		"uCM": 0
 		},
 	"/scss/components/_components.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -89,7 +66,7 @@
 		"uL": 1
 		},
 	"/scss/components/_subscribe_news.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2092,7 +2069,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
