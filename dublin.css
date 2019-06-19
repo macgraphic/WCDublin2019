@@ -541,7 +541,7 @@ body.page-template-full-width #secondary {
 /*--------------------------------------------------------------
 ## Subscribe to News reusable block
 --------------------------------------------------------------*/
-.wp-block-jetpack-subscriptions .button {
+.wp-block-jetpack-subscriptions button {
   background: #163180;
   color: #fff;
   font-size: 1em; }
