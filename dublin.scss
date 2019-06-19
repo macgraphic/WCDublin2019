@@ -75,12 +75,16 @@ pre.wp-block-verse,
 [id^=contact-form-],
 #comments,
 .navigation.post-navigation,
-#tix,
-.entry-content a.more-link {
+#tix {
 	width: 100%;
 	max-width: 72rem;
 	margin: 1rem auto;
 	padding: 0 1rem;
+}
+
+.page-content, .entry-content, .entry-summary {
+	max-width: 72rem;
+	margin: 1rem auto 2rem auto;
 }
 
 
