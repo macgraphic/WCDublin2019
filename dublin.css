@@ -52,7 +52,8 @@ pre.wp-block-verse,
 [id^=contact-form-],
 #comments,
 .navigation.post-navigation,
-#tix {
+#tix,
+a.more-link {
   width: 100%;
   max-width: 72rem;
   margin: 1rem auto;
@@ -359,6 +360,8 @@ body.page-template-full-width #secondary {
     z-index: 5;
     color: #fff; }
     header#masthead .site-branding {
+      display: -webkit-box;
+      display: -webkit-flex;
       display: flex; }
     header#masthead .site-branding p.site-title,
     header#masthead .site-branding p.site-description {
