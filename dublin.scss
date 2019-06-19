@@ -82,6 +82,11 @@ pre.wp-block-verse,
 	padding: 0 1rem;
 }
 
+.page-content, .entry-content, .entry-summary {
+	max-width: 72rem;
+	margin: 1rem auto 2rem auto;
+}
+
 
 .wp-block-embed {
 	margin: 1rem auto 2rem auto;

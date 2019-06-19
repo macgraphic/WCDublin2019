@@ -58,6 +58,10 @@ pre.wp-block-verse,
   margin: 1rem auto;
   padding: 0 1rem; }
 
+.page-content, .entry-content, .entry-summary {
+  max-width: 72rem;
+  margin: 1rem auto 2rem auto; }
+
 .wp-block-embed {
   margin: 1rem auto 2rem auto; }
 
@@ -358,6 +362,8 @@ body.page-template-full-width #secondary {
     z-index: 5;
     color: #fff; }
     header#masthead .site-branding {
+      display: -webkit-box;
+      display: -webkit-flex;
       display: flex; }
     header#masthead .site-branding p.site-title,
     header#masthead .site-branding p.site-description {
