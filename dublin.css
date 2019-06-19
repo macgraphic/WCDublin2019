@@ -351,7 +351,6 @@ body.page-template-full-width #secondary {
   header#masthead {
     background: #163180;
     display: block;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     right: 0;
@@ -384,8 +383,6 @@ body.page-template-full-width #secondary {
       header#masthead #site-navigation ul#primary-menu {
         text-align: center;
         margin: 0 auto;
-        display: -webkit-inline-box;
-        display: -webkit-inline-flex;
         display: inline-flex;
         text-align: left; }
         header#masthead #site-navigation ul#primary-menu li {
