@@ -1,0 +1,94 @@
+table.wcpt-schedule {
+	line-height: 1.5;
+	border: 1px solid #ddd;
+	width: 100%;
+	max-width: calc( 75rem - 5rem);
+	margin: 0 auto;
+	background: $white;
+
+	.dashicons {
+		color: $white;
+		font-size: 1.2rem;
+		width: 1.4rem;
+		height: 1.4rem;
+		background: $brightPurple;
+		padding: 4px 4px 4px 4px;
+		border-radius: 50%;
+	}
+
+	tbody a.wcpt-session-title {
+		text-decoration: none;
+		font-size: 1.1em;
+		font-weight: 600;
+		display: block;
+		margin-bottom: .5rem;
+	}
+
+	tbody tr:nth-child(odd) {
+		background-color: $backgroudColour;
+	}
+
+	thead {
+		background-color: $darkBlue;
+		color: $white;
+		text-align: left;
+		padding: .5rem;
+
+		tr th {
+			padding: .4rem;
+		}
+	}
+
+	.wcb-favourite-session {
+		background: rgba(151,202,222,0.6);
+
+		a.wcpt-session-title {
+			color: $darkPurple;
+		}
+
+		.dashicons {
+			color: $brightPurple;
+			background: $white;
+		}
+	}
+
+	td, .wcpt-schedule th {
+		padding: .75rem;
+		border: 1px solid #ddd;
+	}
+
+	tbody a.wcpt-session-title:hover,
+	tbody a.wcpt-session-title:active,
+	tbody a.wcpt-session-title:focus {
+		text-decoration: underline;
+	}
+
+	tbody span.wcpt-session-speakers a {
+		color: $textColour;
+	}
+
+	tr.global-session {
+		text-align: center;
+
+		.wcpt-session-speakers {
+			margin-right: 2rem;
+		}
+	}
+
+	tr.lunch,
+	tr.break,
+	tr.after-party {
+		background-color: rgba(61,4,102,0.2) !important;
+
+		a.wcpt-session-title {
+			font-weight: 400;
+			font-style: italic;
+			font-size: 1.2rem;
+			margin-right: 2rem;
+		}
+
+		.wcb-session-favourite-icon {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,22 @@
+
+// Speakers Page
+body.page-slug-speakers .wcorg-speaker {
+	border-bottom: 1px dashed rgba(61,4,102,.5);
+	padding-bottom: .5rem;
+	margin: 1rem 0 3rem 0;
+	min-height: 12rem;
+
+	img {
+		float: right;
+		margin: 0 1rem 1rem 1rem;
+	}
+}
+
+body.page-slug-speakers .wcorg-speaker:last-child {
+	border-bottom: none;
+}
+
+// Full Width Page
+body.page-template-full-width #secondary {
+	display: none;
+}

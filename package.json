@@ -1,0 +1,28 @@
+{
+  "name": "wcdublin2019",
+  "version": "1.0.0",
+  "description": "Wordcamp Dublin theme style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macgraphic/WCDublin2019.git"
+  },
+  "keywords": [
+    "wordcamp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macgraphic/WCDublin2019/issues"
+  },
+  "homepage": "https://github.com/macgraphic/WCDublin2019#readme",
+  "devDependencies": {
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-recommended-scss": "^3.3.0",
+    "stylelint-scss": "^3.8.0"
+  }
+}

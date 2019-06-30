@@ -1,0 +1,272 @@
+header#masthead {
+	background: $primaryColour;
+	display: block;
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 5;
+	color: $white;
+
+	.site-branding {
+		width: 100%;
+		max-width: 75rem;
+		margin: 0 auto;
+		position: relative;
+		padding: .5rem 0 0rem 0;
+
+		.site-title {
+			width: 100%;
+			color: $white;
+			top: 0;
+			text-align: center;
+			text-decoration: none;
+			font-size: 1rem;
+			font-weight: 600;
+			margin: 0 auto;
+
+			a {
+				color: $white;
+			}
+		}
+
+		p.site-description {
+			width: 100%;
+			text-align: center;
+			margin: 0 auto;
+			font-size: .9rem;
+			font-weight: 600;
+
+		}
+	}
+}
+
+@media screen and (max-width: 63.99rem) {
+	.page-navigation-container {
+		font-family: $headingFont;
+
+		.menu-toggle {
+			margin: 1rem auto;
+			padding: 1rem 0;
+			width: 100%;
+			border: none;
+			border-top: 3px solid $lightBlue;
+			border-bottom: 3px solid $lightBlue;
+			background: rgba( 0,0,0,0);
+			color: $white;
+			font-size: .9rem;
+			font-weight: 600;
+		}
+
+		ul {
+			display: none;
+		}
+
+		ul li {
+			display: block;
+			float: none;
+			text-align: left;
+			position: relative;
+			padding: .5rem 0;
+
+			button.dropdown-toggle {
+				display: none;
+			}
+
+			a {
+				display: block;
+				width: 100%;
+				margin: 0 auto;
+				color: $lightBlue;
+				padding-left: 1rem;
+
+				&:hover {
+					color: $white;
+					background: $darkPurple;
+				}
+			}
+
+			ul.sub-menu {
+				box-shadow: none;
+				position: relative;
+				left: 0;
+				float: none;
+				display: block;
+				top: 0;
+
+				li a {
+          margin: .5rem 0 .5rem 0;
+          padding-left: 1.5rem;
+				}
+			}
+
+			ul.sub-menu ul.sub-menu {
+				padding-left: 2rem;
+			}
+		}
+  }
+
+	.page-navigation-container.toggled-on ul {
+		display: block;
+	}
+
+	nav#site-navigation.page-navigation-container.toggled-on .menu-menu-container {
+	  display: block;
+	}
+
+	.js .menu-toggle,
+	.js .dropdown-toggle {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 64rem) {
+  .menu-menu-1-container ul#primary-menu.menu {
+		display: inline-block;
+		margin: 0 auto -.4rem auto;
+
+		li {
+			padding: 0;
+			margin: 0;
+
+			a {
+				color: $lightBlue;
+				padding: .75rem 1.5rem;
+				margin: 0 1rem 0 1rem;
+				text-transform: uppercase;
+			}
+
+			a:hover,
+			a:focus,
+			a:active,
+			a:focus-within {
+				background: $darkPurple;
+				color: $white;
+			}
+		}
+
+		li:hover > a {
+			background: $darkPurple;
+			color: $white;
+		}
+
+		ul.sub-menu {
+			text-align: left;
+			margin: 1.5rem 0 0 1rem;
+			background: $primaryColour;
+
+			li {
+				padding: 0;
+				margin: 0;
+
+				a {
+					color: $lightBlue;
+					padding: .75rem .5rem;
+					margin: 0 0;
+				}
+
+				a:hover {
+					color: $white;
+					background: $darkPurple;
+				}
+
+				ul.sub-menu {
+					margin: 0;
+				}
+			}
+		}
+  }
+  
+  header#masthead {
+		background: $primaryColour;
+		display: block;
+		position: sticky;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 5;
+		color: $white;
+
+		.site-branding {
+			display: flex;
+		}
+
+		.site-branding p.site-title,
+		.site-branding p.site-description {
+			width: 50%;
+			display: inline-block;
+		}
+
+		.site-branding p.site-title {
+			text-align: left;
+		}
+
+		.site-branding p.site-description {
+			text-align: right;
+		}
+
+
+		.custom-header {
+			width: 100%;
+			max-width: 75rem;
+			margin: 0 auto;
+		}
+
+		#site-navigation {
+			position: relative;
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+			font-family: $headingFont;
+			top: 0;
+			z-index: 4;
+			background: rgba(29,10,105,0);
+
+			ul#primary-menu {
+				margin: 0 auto;
+				display: inline-flex;
+				text-align: left;
+
+				li {
+					padding: .5rem 0 0 0;
+					margin: .25rem 0 0 0;
+					text-transform: uppercase;
+					font-weight: 700;
+				}
+
+				a {
+					color: $white;
+					padding: 1rem .5rem .5rem .5rem;
+					margin: 0 .5rem 0 .5rem;
+				}
+
+				a:focus,
+				a:focus-within,
+				a:active,
+				a:hover {
+					background: $lightBlue;
+				}
+
+				ul.sub-menu {
+					background: $primaryColour;
+					margin: 2rem 0 0 0;
+
+					li {
+            margin: 0;
+            padding: 0;s
+
+						a {
+							padding: .75rem .25rem .75rem 1rem;
+              min-width: 260px;
+              margin: 0 0;
+						}
+					}
+
+					ul.sub-menu {
+						margin-top: 0;
+					}
+				}
+			}
+		}
+  }
+}
