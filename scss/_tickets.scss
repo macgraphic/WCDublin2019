@@ -1,0 +1,45 @@
+// Tickets Table
+table.tix_tickets_table {
+	width: 100%;
+	display: inline-table;
+	margin: 1rem auto 2rem auto;
+	border: 1px solid $darkPurple;
+
+	thead {
+		color: $white;
+		background: $darkPurple;
+	}
+
+	th {
+		font-weight: 400;
+	}
+
+	td, th {
+		padding: .5rem .25rem;
+		text-align: left;
+	}
+
+	.tix-ticket-title {
+		color: $darkPurple;
+	}
+}
+
+table.tix-attendee-form {
+	td.tix-left {
+		width: calc( 60% - 2rem) !important;
+		padding: 1rem 1rem;
+	}
+
+	td.tix-right {
+		width: calc( 40% - 2rem) !important;
+		padding: 1rem 1rem;
+	}
+
+	th {
+		font-weight: 700;
+	}
+}
+
+.tix-column-remaining {
+	display: none;
+}

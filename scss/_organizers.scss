@@ -1,0 +1,31 @@
+// Organisers Page
+.wcorg-organizers {
+	.wcorg-organizer {
+		width: calc( 100% / 3 - 1rem);
+		display: inline-grid;
+		border: 1px solid #ddd;
+		margin: 1rem .25rem;
+		padding: 0 1rem 1rem 1rem;
+    box-sizing: border-box;
+    
+    &:hover {
+      border-color: rgba(61,4,102, 0.5);
+    }
+
+		h2 {
+			margin: 0 0 .5rem 0;
+			font-size: 1.2rem;
+			text-align: center;
+			color: $darkPurple;
+		}
+
+		.wcorg-organizer-description {
+			margin: 0 auto;
+
+			img {
+				display: block;
+				margin: 0 auto;
+			}
+		}
+	}
+}
