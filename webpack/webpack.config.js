@@ -10,8 +10,8 @@ module.exports = {
     ]
   },
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "js/[name].bundle.js"
+    path: path.resolve(__dirname, "../"),
+    filename: "./dublin.js"
   },
   module: {
     rules: [

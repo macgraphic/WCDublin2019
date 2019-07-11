@@ -3,7 +3,7 @@ const _MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const _StyleLintPlugin = require('stylelint-webpack-plugin');
 
 const MiniCssExtractPlugin = new _MiniCssExtractPlugin({
-  filename: '[name].bundle.css',
+  filename: 'dublin.css',
   chunkFilename: '[id].css'
 });
 
