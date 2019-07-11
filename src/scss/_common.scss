@@ -15,6 +15,10 @@ body {
 	}
 }
 
+.site-content {
+  min-height: calc(100vh - 210px);
+}
+
 .page-content,
 .entry-content,
 .entry-summary {
