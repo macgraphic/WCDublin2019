@@ -22,7 +22,8 @@ body {
 .page-content,
 .entry-content,
 .entry-summary {
-	max-width: 72rem;
+  width: 72rem;
+  max-width: 100%;
 	margin: 1rem auto 2rem auto;
 }
 
@@ -51,6 +52,29 @@ body {
     margin-right : calc( -100vw / 2 + 100% / 2 );
     max-width    : 100vw;
     width: 100vw;
+  }
+
+  .wp-block-table {
+    margin: 0 1rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: calc(100% - 2rem);
+
+    tr {
+      padding-bottom: 1em;
+
+      &:nth-child(even) {
+        background: $lightBlue;
+        color: $white;
+        a {
+          color: $white;
+        }
+      }
+    }
+
+    td {
+      padding: 0.5em;
+    }
   }
 }
 
@@ -88,7 +112,6 @@ figure.wp-block-audio,
 figure.wp-block-embed,
 .wp-block-preformatted,
 pre.wp-block-verse,
-.wp-block-table,
 .wp-block-quote,
 .wp-block-image,
 .wp-block-columns,
@@ -100,8 +123,8 @@ pre.wp-block-verse,
 #comments,
 .navigation.post-navigation,
 #tix {
-	width: 100%;
-	max-width: 72rem;
+  width: 72rem;
+	max-width: 100%;
 	margin: 1rem auto;
 	padding: 0 1rem;
 }
@@ -127,8 +150,8 @@ iframe {
 	margin: 1rem auto;
 
 	&.alignright {
-		width: 100%;
-		max-width: 72rem;
+    width: 72rem;
+		max-width: 100%;
 	}
 }
 
@@ -181,8 +204,8 @@ p.no-comments {
   }
 
   body.page-template-default #content.site-content {
-		width: 100%;
-		max-width: 72rem;
+		max-width: 100%;
+		width: 72rem;
 		margin: 0 auto;
 		padding: 1rem 1rem;
 

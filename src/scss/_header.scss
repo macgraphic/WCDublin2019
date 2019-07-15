@@ -7,7 +7,7 @@ header#masthead {
 	left: 0;
 	z-index: 5;
   color: $white;
-  padding: 0 4rem;
+  padding: 0 2rem;
 
 	.site-branding {
     text-align: left;
@@ -88,7 +88,7 @@ header#masthead {
 			a {
 				display: block;
 				color: $lightBlue;
-        padding: 1rem;
+        padding: 1rem 0.5rem;
         width: 100%;
 
         &:hover,
@@ -223,9 +223,9 @@ header#masthead {
 
 				a {
 					color: $white;
-					padding: 2rem 1.2rem;
+					padding: 2rem 1rem;
 					height: 90px;
-          font-size: 1.2rem;
+          font-size: 1rem;
 				}
 
 				a:focus,
