@@ -40,7 +40,6 @@
   }
 
   .menu-menu-container {
-    display: flex;
     width: 73rem;
     max-width: 100%;
     margin: 0 auto;
@@ -272,6 +271,7 @@
 
         .current-menu-item a {
           background: $white;
+          color: $primaryColour;
         }
 
         ul.sub-menu {
