@@ -78,8 +78,7 @@
 
 @media screen and (max-width: 63.99rem) {
   header#masthead {
-    padding: 0 1em;
-    display: block;
+    display: flex;
 
     .site-branding {
       text-align: center;
@@ -262,7 +261,7 @@
         }
 
         .current-menu-item a {
-          background: $lightBlue;
+          background: $white;
         }
 
         ul.sub-menu {
