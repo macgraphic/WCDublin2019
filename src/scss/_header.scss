@@ -17,12 +17,13 @@
       padding: 0;
 
       a {
-        background: url("https://2019.dublin.wordcamp.org/files/2019/07/WordCamp-Dublin-2.png");
+        background: url("https://2019.dublin.wordcamp.org/files/2019/07/WordCamp-Dublin-logo-mobile.png");
+        width: 300px;
+        height: 70px;
+        max-width: 100%;
         background-repeat: no-repeat;
         text-decoration: none;
-        width: 557px;
         margin: 3em auto;
-        height: 130px;
         display: block;
         overflow: hidden;
         text-indent: -9999px;
@@ -32,8 +33,9 @@
 
     .site-description {
       font-family: $headingFont;
-      font-size: 2em;
+      font-size: 1.8rem;
       text-align: center;
+      padding: 1em;
     }
   }
 
@@ -43,19 +45,10 @@
     margin: 0 auto;
     text-align: right;
     position: relative;
-
-    &:before {
-      content: "#WCDUBLIN";
-      font-size: 2rem;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-    }
   }
 
   .custom-header {
-    height: 470px;
+    height: 370px;
     width: 100%;
     max-width: 100%;
     background-color: $primaryColour;
@@ -77,29 +70,20 @@
 }
 
 @media screen and (max-width: 63.99rem) {
-  header#masthead {
-    display: flex;
-
-    .site-branding {
-      text-align: center;
-    }
-  }
-
   .page-navigation-container {
     font-family: $headingFont;
 
     .menu-toggle {
-      margin: 1rem auto;
-      padding: 1rem 0;
+      margin: 0 auto;
+      padding: 1.5rem;
       width: 100%;
       border: none;
-      border-top: 3px solid $lightBlue;
-      border-bottom: 3px solid $lightBlue;
       border-radius: 0;
       background: transparent;
       color: $white;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       font-weight: 700;
+      text-align: right;
     }
 
     ul {
@@ -118,9 +102,10 @@
 
       a {
         display: block;
-        color: $lightBlue;
+        color: $white;
         padding: 1rem 0.5rem;
         width: 100%;
+        font-size: 1.2rem;
 
         &:hover,
         &:active {
@@ -164,6 +149,16 @@
 }
 
 @media screen and (min-width: 64rem) {
+  .menu-menu-container {
+    &:before {
+      content: "#WCDUBLIN";
+      font-size: 2rem;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
   .menu-menu-1-container ul#primary-menu.menu {
     display: inline-block;
     margin: 0 auto -0.4rem auto;
@@ -220,9 +215,23 @@
     }
   }
 
-  #masthead {
-    .site-branding .site-title {
-      text-align: left;
+  .site-header {
+    .site-branding {
+      .site-title {
+        a {
+          background: url("https://2019.dublin.wordcamp.org/files/2019/07/WordCamp-Dublin-logo-desktop.png");
+          width: 557px;
+          height: 130px;
+        }
+      }
+    }
+
+    .site-description {
+      font-size: 2.2rem;
+    }
+
+    .custom-header {
+      height: 470px;
     }
 
     #site-navigation {
