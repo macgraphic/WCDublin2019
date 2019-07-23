@@ -10,5 +10,9 @@
 @import "./singular";
 @import "./sidebar";
 
+// home
+@import "./home/boxes";
+
 /* Import all component styles */
 @import "./components/components";
+@import "./components/mainBanner";

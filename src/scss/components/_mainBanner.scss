@@ -1,0 +1,13 @@
+.mainBanner {
+  &__logo {
+    background-image: url(https://2019.dublin.wordcamp.org/files/2019/07/WordCamp-Dublin.png);
+    background-repeat: no-repeat;
+    width: 247px;
+    height: 70px;
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+    margin: 2em auto;
+    background-position: center;
+  }
+}

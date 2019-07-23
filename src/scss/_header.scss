@@ -232,7 +232,8 @@ header#masthead {
 				a:focus-within,
 				a:active,
 				a:hover {
-					background: $lightBlue;
+          background: $white;
+          color: $primaryColour;
         }
 
 
