@@ -57,6 +57,42 @@
     background-size: cover;
     background-position: center;
     order: 2;
+
+    .page-id-267 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dublin-bridge-m.jpg');
+    }
+
+    .page-id-134 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors-m.jpg');
+    }
+
+    .page-id-14 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors-m.jpg');
+    }
+
+    .page-id-17 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors-m.jpg');
+    }
+
+    .page-id-11 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dcu-entrance-m.jpg');
+    }
+
+    .page-id-123 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/anne-street-dublin-m.jpg');
+    }
+
+    .page-id-164 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dublin-bridge-m.jpg');
+    }
+
+    .page-id-13 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/road-to-building-m.jpg');
+    }
+
+    .page-id-138 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/traffic-dublin-m.jpg');
+    }
   }
 
   .main-navigation {
@@ -232,6 +268,41 @@
 
     .custom-header {
       height: 470px;
+      .page-id-267 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dublin-bridge.jpg');
+      }
+
+      .page-id-134 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors.jpg');
+      }
+
+      .page-id-14 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors.jpg');
+      }
+
+      .page-id-17 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors.jpg');
+      }
+
+      .page-id-11 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dcu-entrance.jpg');
+      }
+
+      .page-id-123 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/anne-street-dublin.jpg');
+      }
+
+      .page-id-164 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dublin-bridge.jpg');
+      }
+
+      .page-id-13 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/road-to-building.jpg');
+      }
+
+      .page-id-138 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/traffic-dublin.jpg');
+      }
     }
 
     #site-navigation {
