@@ -15,6 +15,11 @@ body {
 	}
 }
 
+a,
+a:visited {
+  color: $primaryColour;
+}
+
 .site-content {
   min-height: calc(100vh - 210px);
 }
