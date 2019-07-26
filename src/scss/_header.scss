@@ -58,6 +58,18 @@
     background-position: center;
     order: 2;
 
+    &:before {
+      background: rgba(29, 92, 181, 0.6);
+      position: absolute;
+      content: " ";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      z-index: 0;
+    }
+
     .page-id-267 & {
       background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dublin-bridge-m.jpg');
     }
