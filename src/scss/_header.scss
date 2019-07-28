@@ -33,7 +33,7 @@
 
     .site-description {
       font-family: $headingFont;
-      font-size: 1.8rem;
+      font-size: 1.3rem;
       text-align: center;
       padding: 1em;
     }
@@ -52,7 +52,7 @@
     width: 100%;
     max-width: 100%;
     background-color: $primaryColour;
-    background-image: url("https://2019.dublin.wordcamp.org/files/2019/07/wordcamp_banner_image.jpg");
+    background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/wcdublin_home_banner_m.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -280,6 +280,8 @@
 
     .custom-header {
       height: 470px;
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/wcdublin_home_banner.jpg');
+
       .page-id-267 & {
         background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dublin-bridge.jpg');
       }
