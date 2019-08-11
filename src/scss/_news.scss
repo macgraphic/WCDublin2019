@@ -2,7 +2,21 @@
   .category-news {
     .wp-block-cover {
       background-color: $medBlue;
-      height: 450px;
+      height: 470px;
+    }
+
+    .wp-block-cover__inner-container {
+      display: inline-block;
+      width: auto;
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      background: $medBlue;
+      padding: 0 1.5em;
+
+      p {
+        width: auto;
+      }
     }
   }
 }
