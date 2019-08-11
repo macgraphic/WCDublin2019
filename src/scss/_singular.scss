@@ -5,6 +5,13 @@
   }
 }
 
+.page-template {
+  .entry-header {
+    .entry-image {
+      display: none;
+    }
+  }
+}
 
 @media screen and (min-width: 64rem) {
   .single {
