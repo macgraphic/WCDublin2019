@@ -1,0 +1,37 @@
+.boxes {
+  &.wp-block-columns {
+    background: $backgroudColour;
+    margin-top: 2rem;
+  }
+
+  .wp-block-column {
+    background: $white;
+    text-align: center;
+    padding: 0.5em;
+    border: 1px solid $borderColour;
+  }
+
+  &__title {
+    &:before {
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: block;
+      margin: 0.7em auto;
+      width: 50px;
+      height: 50px;
+      content: "";
+    }
+
+    &__volunteers:before {
+      background-image: url("https://2019.dublin.wordcamp.org/files/2019/07/volunteer-small.png");
+    }
+
+    &__speakers:before {
+      background-image: url("https://2019.dublin.wordcamp.org/files/2019/07/speakers.png");
+    }
+
+    &__ticket:before {
+      background-image: url("https://2019.dublin.wordcamp.org/files/2019/07/tickets.png");
+    }
+  }
+}

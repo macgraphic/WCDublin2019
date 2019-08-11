@@ -1,0 +1,385 @@
+.site-header {
+  background: $primaryColour;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  color: $white;
+  flex-wrap: wrap;
+  position: relative;
+
+  .site-branding {
+    position: relative;
+    padding: 1.5em 0 0;
+
+    .site-title {
+      padding: 0;
+
+      a {
+        background: url("https://2019.dublin.wordcamp.org/files/2019/07/WordCamp-Dublin-logo-mobile.png");
+        width: 300px;
+        height: 70px;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        text-decoration: none;
+        margin: 3em auto;
+        display: block;
+        overflow: hidden;
+        text-indent: -9999px;
+        color: $white;
+      }
+    }
+
+    .site-description {
+      font-family: $headingFont;
+      font-size: 1.3rem;
+      text-align: center;
+      padding: 1em;
+    }
+  }
+
+  .menu-menu-container {
+    width: 73rem;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: right;
+    position: relative;
+  }
+
+  .custom-header {
+    height: 370px;
+    width: 100%;
+    max-width: 100%;
+    background-color: $primaryColour;
+    background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/wcdublin_home_banner_m.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    order: 2;
+
+    &:before {
+      background: rgba(29, 92, 181, 0.6);
+      position: absolute;
+      content: " ";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      z-index: 0;
+    }
+
+    .page-id-267 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dublin-bridge-m.jpg');
+    }
+
+    .page-id-134 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors-m.jpg');
+    }
+
+    .page-id-14 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors-m.jpg');
+    }
+
+    .page-id-17 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors-m.jpg');
+    }
+
+    .page-id-11 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dcu-entrance-m.jpg');
+    }
+
+    .page-id-123 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/anne-street-dublin-m.jpg');
+    }
+
+    .page-id-164 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dublin-bridge-m.jpg');
+    }
+
+    .page-id-13 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/road-to-building-m.jpg');
+    }
+
+    .page-id-138 & {
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/traffic-dublin-m.jpg');
+    }
+  }
+
+  .main-navigation {
+    position: sticky;
+    order: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: $primaryColour;
+  }
+}
+
+@media screen and (max-width: 63.99rem) {
+  .page-navigation-container {
+    font-family: $headingFont;
+
+    .menu-toggle {
+      margin: 0 auto;
+      padding: 1.5rem;
+      width: 100%;
+      border: none;
+      border-radius: 0;
+      background: transparent;
+      color: $white;
+      font-size: 1.4rem;
+      font-weight: 700;
+      text-align: right;
+    }
+
+    ul {
+      display: none;
+    }
+
+    ul li {
+      display: block;
+      float: none;
+      text-align: left;
+      position: relative;
+
+      button.dropdown-toggle {
+        display: none;
+      }
+
+      a {
+        display: block;
+        color: $white;
+        padding: 1rem 0.5rem;
+        width: 100%;
+        font-size: 1.2rem;
+
+        &:hover,
+        &:active {
+          color: $white;
+          background: $lightBlue;
+        }
+      }
+
+      ul.sub-menu {
+        box-shadow: none;
+        position: relative;
+        left: 0;
+        float: none;
+        display: block;
+        top: 0;
+
+        li a {
+          margin: 0.5rem 0 0.5rem 0;
+          padding-left: 1.5rem;
+        }
+      }
+
+      ul.sub-menu ul.sub-menu {
+        padding-left: 2rem;
+      }
+    }
+  }
+
+  .page-navigation-container.toggled-on ul {
+    display: block;
+  }
+
+  #site-navigation.page-navigation-container.toggled-on .menu-menu-container {
+    display: block;
+  }
+
+  .js .menu-toggle,
+  .js .dropdown-toggle {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .menu-menu-container {
+    &:before {
+      content: "#WCDUBLIN";
+      font-size: 2rem;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .menu-menu-1-container ul#primary-menu.menu {
+    display: inline-block;
+    margin: 0 auto -0.4rem auto;
+
+    li {
+      padding: 0;
+      margin: 0;
+
+      a {
+        color: $lightBlue;
+        padding: 0.75rem 1.5rem;
+        margin: 0 1rem 0 1rem;
+        text-transform: uppercase;
+      }
+
+      a:hover,
+      a:focus,
+      a:active,
+      a:focus-within {
+        background: $lightBlue;
+        color: $white;
+      }
+    }
+
+    li:hover > a {
+      background: $lightBlue;
+      color: $white;
+    }
+
+    ul.sub-menu {
+      text-align: left;
+      margin: 1.5rem 0 0 1rem;
+      background: $primaryColour;
+
+      li {
+        padding: 0;
+        margin: 0;
+
+        a {
+          color: $lightBlue;
+          padding: 0.75rem 0.5rem;
+          margin: 0 0;
+        }
+
+        a:hover {
+          color: $white;
+          background: $lightBlue;
+        }
+
+        ul.sub-menu {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .site-header {
+    .site-branding {
+      .site-title {
+        a {
+          background: url("https://2019.dublin.wordcamp.org/files/2019/07/WordCamp-Dublin-logo-desktop.png");
+          width: 557px;
+          height: 130px;
+        }
+      }
+    }
+
+    .site-description {
+      font-size: 2.2rem;
+    }
+
+    .custom-header {
+      height: 470px;
+      background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/wcdublin_home_banner.jpg');
+
+      .page-id-267 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dublin-bridge.jpg');
+      }
+
+      .page-id-134 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors.jpg');
+      }
+
+      .page-id-14 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors.jpg');
+      }
+
+      .page-id-17 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/appartment-doors.jpg');
+      }
+
+      .page-id-11 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dcu-entrance.jpg');
+      }
+
+      .page-id-123 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/anne-street-dublin.jpg');
+      }
+
+      .page-id-164 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/dublin-bridge.jpg');
+      }
+
+      .page-id-13 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/road-to-building.jpg');
+      }
+
+      .page-id-138 & {
+        background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/traffic-dublin.jpg');
+      }
+    }
+
+    #site-navigation {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      font-family: $headingFont;
+      z-index: 4;
+
+      #primary-menu {
+        margin: 0 auto;
+        display: inline-flex;
+        text-align: left;
+
+        li {
+          padding: 0;
+          text-transform: uppercase;
+          font-weight: 700;
+          display: flex;
+          align-items: center;
+        }
+
+        a {
+          color: $white;
+          padding: 2rem 1rem;
+          height: 90px;
+          font-size: 1rem;
+        }
+
+        a:focus,
+        a:focus-within,
+        a:active,
+        a:hover {
+          background: $white;
+          color: $primaryColour;
+        }
+
+        .current-menu-item a {
+          background: $white;
+          color: $primaryColour;
+        }
+
+        ul.sub-menu {
+          background: $primaryColour;
+          margin: 4rem 0 0 0;
+
+          li {
+            margin: 0;
+            padding: 0;
+
+            a {
+              padding: 1rem;
+              min-width: 260px;
+              margin: 0 0;
+              height: auto;
+            }
+          }
+
+          ul.sub-menu {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+}

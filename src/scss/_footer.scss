@@ -1,0 +1,81 @@
+.site-footer {
+  position: relative;
+  padding: 1em 1em 220px 1em;
+  margin-top: 4em;
+  background-position: bottom center;
+
+  &:before {
+    background: $primaryColour;
+    background-image: url(https://2019.dublin.wordcamp.org/files/2019/07/lines_dublin.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 220px;
+  }
+
+	#footer-widgets {
+		width: 100%;
+		max-width: 75rem;
+		margin: 1rem auto;
+
+		.wcb_widget_sponsors {
+			text-align: center;
+		}
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (min-width: 64rem) {
+	#footer-widgets {
+		width: 100%;
+		max-width: 75rem;
+		margin: 1rem auto;
+		padding: 1rem;
+		border-top: 2px solid #ddd;
+		border-bottom: 2px solid #ddd;
+
+		.sponsor-level.gold a.sponsor-logo,
+		.sponsor-level.silver a.sponsor-logo,
+		.sponsor-level.bronze a.sponsor-logo,
+		.sponsor-level.in-kind a.sponsor-logo,
+		.sponsor-level.wood a.sponsor-logo,
+		.sponsor-level.cardboard a.sponsor-logo,
+		.sponsor-level.paper a.sponsor-logo,
+		.sponsor-level.tissue a.sponsor-logo {
+			display: inline-block;
+			padding: 0 1rem;
+		}
+
+		.sponsor-level.gold a.sponsor-logo img,
+		.sponsor-level.silver a.sponsor-logo img,
+		.sponsor-level.bronze a.sponsor-logo img,
+		.sponsor-level.in-kind a.sponsor-logo img,
+		.sponsor-level.wood a.sponsor-logo img,
+		.sponsor-level.cardboard a.sponsor-logo img,
+		.sponsor-level.paper a.sponsor-logo img,
+		.sponsor-level.tissue a.sponsor-logo img {
+			padding: .5rem .5rem;
+		}
+
+		.sponsor-level.gold a.sponsor-logo { max-width: 50%; }
+		.sponsor-level.silver a.sponsor-logo { max-width: 33%; }
+		.sponsor-level.bronze a.sponsor-logo { max-width: 28%; }
+		.sponsor-level.in-kind a.sponsor-logo { max-width: 26%; }
+		.sponsor-level.wood a.sponsor-logo { max-width: 24%; }
+		.sponsor-level.cardboard a.sponsor-logo { max-width: 22%; }
+		.sponsor-level.paper a.sponsor-logo { max-width: 20%; }
+		.sponsor-level.tissue a.sponsor-logo { max-width: 18%; }
+	}
+}

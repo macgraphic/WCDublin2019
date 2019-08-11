@@ -1,0 +1,31 @@
+.blog {
+  .post {
+    .entry-title {
+      font-size: 2.5em;
+    }
+
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        color: $lightBlue;
+      }
+    }
+
+    .more-link {
+      background: $primaryColour;
+      color: $secondaryColour;
+      margin-left: 1em;
+      padding: 0.5em 1em;
+
+      &:hover {
+        background: $lightBlue;
+        color: $medBlue;
+      }
+    }
+  }
+
+  .content-area {
+    margin-top: 4em;
+  }
+}
