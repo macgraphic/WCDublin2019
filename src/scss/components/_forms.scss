@@ -12,10 +12,11 @@ form {
     font-weight: 700;
   }
 
-  button {
+  button,
+  input[type="submit"] {
     background: $medBlue;
     color: #fff;
     font-size: 1em;
-    padding: .5rem 1rem;
+    padding: .75rem 1.25rem;
   }
 }
