@@ -2,11 +2,11 @@ table.tix_tickets_table {
 	width: 100%;
 	display: inline-table;
 	margin: 1rem auto 2rem auto;
-	border: 1px solid $darkPurple;
+	border: 1px solid $medBlue;
 
 	thead {
 		color: $white;
-		background: $darkPurple;
+		background: $medBlue;
 	}
 
 	th {
@@ -19,7 +19,7 @@ table.tix_tickets_table {
 	}
 
 	.tix-ticket-title {
-		color: $darkPurple;
+		color: $medBlue;
 	}
 }
 
