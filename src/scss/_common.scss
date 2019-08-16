@@ -289,3 +289,10 @@ ul:not(.menu) li::before {
     }
   }
 }
+
+* {
+  ::selection {
+    background: $medBlue;
+    color: #fff;
+  }
+}
