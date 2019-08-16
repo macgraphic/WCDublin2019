@@ -259,6 +259,19 @@ ul:not(.menu) li::before {
   margin-left: -1em;
 }
 
+.wp-block-image {
+  &.alignfull,
+  &.alignwide {
+    padding: 0;
+
+      img {
+      max-width: 100vw;
+      width: 100vw;
+      height: auto;
+    }
+  }
+}
+
 @media screen and (min-width: 64rem) {
   .wp-block-image figure {
     &.alignleft,
@@ -273,20 +286,6 @@ ul:not(.menu) li::before {
 
     &.alignright {
       margin-right: -60px;
-    }
-  }
-
-  .wp-block-image {
-    &.alignfull,
-    &.alignwide {
-      margin: 0;
-      padding: 0;
-
-        img {
-        max-width: 100vw;
-        width: 100vw;
-        height: auto;
-      }
     }
   }
 }
