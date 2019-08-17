@@ -13,11 +13,11 @@ table.tix_tickets_table {
     table-layout: fixed;
   }
 
-
-	thead {
+	th {
 		color: $white;
 		background: $medBlue;
-	}
+    font-weight: 700;
+  }
 
   tr:not(:first-child) {
     border-top: solid 1px $lightBlue;
@@ -30,10 +30,6 @@ table.tix_tickets_table {
     @media screen and (min-width: 28rem) {
       padding: 1rem;
     }
-  }
-
-	th {
-    font-weight: 700;
   }
 
 	.tix-ticket-title {
