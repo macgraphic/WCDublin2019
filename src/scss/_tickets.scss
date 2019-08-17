@@ -3,12 +3,31 @@
   margin-top: 0;
 }
 
-table {
+table.tix_tickets_table {
+	width: 100%;
+  display: inline-table;
+	margin: 1rem auto 2rem auto;
+  border: 1px solid $medBlue;
+
+  @media screen and (max-width: 48rem) {
+    table-layout: fixed;
+  }
+
+
+	thead {
+		color: $white;
+		background: $medBlue;
+	}
+
+  tr:not(:first-child) {
+    border-top: solid 1px $lightBlue;
+  }
+
 	td, th {
 		text-align: left;
     padding: 0.5rem;
 
-    @media screen and (min-width: 30rem) {
+    @media screen and (min-width: 28rem) {
       padding: 1rem;
     }
   }
@@ -16,29 +35,6 @@ table {
 	th {
     font-weight: 700;
   }
-}
-
-table.tix_tickets_table {
-	width: 100%;
-  display: inline-table;
-  table-layout: fixed;
-	margin: 1rem auto 2rem auto;
-	border: 1px solid $medBlue;
-
-	thead {
-		color: $white;
-		background: $medBlue;
-	}
-
-  tbody tr:not(:first-child) {
-    border-top: solid 1px $lightBlue;
-  }
-
-  // td {
-  //   display: block;
-  //   box-sizing: border-box;
-  //   clear: both
-  // }
 
 	.tix-ticket-title {
 		color: $medBlue;
@@ -46,11 +42,14 @@ table.tix_tickets_table {
 }
 
 table.tix-order-summary {
-  overflow-x: scroll;
+  @media screen and (max-width: 30rem) {
+    display: block;
+    overflow-x: scroll;
+  }
 }
 
 table.tix-attendee-form {
-  table-layout: fixed;
+  // TODO: Make td on mobile 100%
 
   input[type="text"],
   input[type="email"],
@@ -59,14 +58,6 @@ table.tix-attendee-form {
   select {
     width: 100%;
   }
-
-    // td.tix-left {
-    //   width: calc( 60% - 2rem) !important;
-    // }
-
-    // td.tix-right {
-    //   width: calc( 40% - 2rem) !important;
-    // }
 }
 
 .tix-column-remaining {
