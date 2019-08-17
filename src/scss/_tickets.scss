@@ -1,6 +1,27 @@
+.tix-js form > p {
+  padding: 0;
+  margin-top: 0;
+}
+
+table {
+	td, th {
+		text-align: left;
+    padding: 0.5rem;
+
+    @media screen and (min-width: 30rem) {
+      padding: 1rem;
+    }
+  }
+
+	th {
+    font-weight: 700;
+  }
+}
+
 table.tix_tickets_table {
 	width: 100%;
-	display: inline-table;
+  display: inline-table;
+  table-layout: fixed;
 	margin: 1rem auto 2rem auto;
 	border: 1px solid $medBlue;
 
@@ -9,34 +30,43 @@ table.tix_tickets_table {
 		background: $medBlue;
 	}
 
-	th {
-		font-weight: 400;
-	}
+  tbody tr:not(:first-child) {
+    border-top: solid 1px $lightBlue;
+  }
 
-	td, th {
-		padding: .5rem .25rem;
-		text-align: left;
-	}
+  // td {
+  //   display: block;
+  //   box-sizing: border-box;
+  //   clear: both
+  // }
 
 	.tix-ticket-title {
 		color: $medBlue;
 	}
 }
 
+table.tix-order-summary {
+  overflow-x: scroll;
+}
+
 table.tix-attendee-form {
-	td.tix-left {
-		width: calc( 60% - 2rem) !important;
-		padding: 1rem 1rem;
-	}
+  table-layout: fixed;
 
-	td.tix-right {
-		width: calc( 40% - 2rem) !important;
-		padding: 1rem 1rem;
-	}
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  textarea,
+  select {
+    width: 100%;
+  }
 
-	th {
-		font-weight: 700;
-	}
+    // td.tix-left {
+    //   width: calc( 60% - 2rem) !important;
+    // }
+
+    // td.tix-right {
+    //   width: calc( 40% - 2rem) !important;
+    // }
 }
 
 .tix-column-remaining {

@@ -3,20 +3,11 @@ form {
     padding-left: 0;
   }
 
-  table.tix_tickets_table td,
-  table.tix_tickets_table th {
-    padding: 1rem;
-  }
-
-  table.tix_tickets_table th {
-    font-weight: 700;
-  }
-
   button,
   input[type="submit"] {
     background: $medBlue;
     color: #fff;
     font-size: 1em;
-    padding: .75rem 1.25rem;
+    padding: .75rem 1.25rem !important;
   }
 }
