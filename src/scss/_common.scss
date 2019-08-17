@@ -68,7 +68,12 @@ a:visited {
     tr {
       padding-bottom: 1em;
 
-      &:nth-child(even) {
+      &:first-child {
+        background: #1d5cb5;
+        color: #fff;
+      }
+
+      &:nth-child(odd) {
         background: $lightBlue;
         color: $white;
         a {
