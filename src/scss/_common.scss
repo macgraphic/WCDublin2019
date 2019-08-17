@@ -69,11 +69,11 @@ a:visited {
       padding-bottom: 1em;
 
       &:first-child {
-        background: #1d5cb5;
+        background: $medBlue;
         color: #fff;
       }
 
-      &:nth-child(odd) {
+      &:nth-child(even) {
         background: $lightBlue;
         color: $white;
         a {
