@@ -276,6 +276,15 @@ ul:not(.menu) li::before {
     }
   }
 }
+@media screen and (max-width: 64rem) {
+  .wp-block-image {
+    .alignright,
+    .alignleft {
+      float: none;
+      margin: 0;
+    }
+  }
+}
 
 @media screen and (min-width: 64rem) {
   .wp-block-image figure {

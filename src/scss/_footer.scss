@@ -43,17 +43,20 @@
 }
 
 // style the Back to Top button
+// old HTML code
+// <span class="hide-mobile">Back to </span>Top ↑
 .footer-widgets-block:first-child {
   position: fixed;
   bottom: 10px;
   right: 10px;
   background: #fff;
   display: block;
-  width: 3.5em;
+  // width: 3.5em;
   text-align: center;
   color: gray;
   margin: 0;
   z-index: 5;
+  border-radius: 25px;
 
   .widget {
     padding: 0;
@@ -69,7 +72,10 @@
       text-align: center;
       color: #777;
       border: 1px solid #ddd;
-      font-size: .875rem;
+      // font-size: .875rem;
+      border-radius: 25px;
+      width: 3em;
+      height: 3em;
 
       &:hover {
         background: $medBlue;
@@ -143,11 +149,12 @@
 		.sponsor-level.tissue a.sponsor-logo { max-width: 18%; }
 	}
 
-  .footer-widgets-block:first-child {
-    width: 4.5em;
-  }
+  // Back to Top styles
+  // .footer-widgets-block:first-child {
+  //   width: 4.5em;
+  // }
 
-  .hide-mobile {
-    display: block;
-  }
+  // .hide-mobile {
+  //   display: block;
+  // }
 }
