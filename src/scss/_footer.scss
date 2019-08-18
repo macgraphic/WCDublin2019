@@ -42,6 +42,49 @@
   }
 }
 
+// style the Back to Top button
+.footer-widgets-block:first-child {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: #fff;
+  display: block;
+  width: 3.5em;
+  text-align: center;
+  color: gray;
+  margin: 0;
+  z-index: 5;
+
+  .widget {
+    padding: 0;
+    margin: 0;
+  }
+
+  .back-top {
+    margin: 0;
+
+    &__link {
+      display: block;
+      padding: 0.5rem;
+      text-align: center;
+      color: #777;
+      border: 1px solid #ddd;
+      font-size: .875rem;
+
+      &:hover {
+        background: $medBlue;
+        text-decoration: none;
+        border: 1px solid #fff;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.hide-mobile {
+  display: none;
+}
+
 @media screen and (min-width: 30rem) {
   .sponsor-logo {
     padding: 1rem;
@@ -99,4 +142,12 @@
 		.sponsor-level.paper a.sponsor-logo { max-width: 20%; }
 		.sponsor-level.tissue a.sponsor-logo { max-width: 18%; }
 	}
+
+  .footer-widgets-block:first-child {
+    width: 4.5em;
+  }
+
+  .hide-mobile {
+    display: block;
+  }
 }
