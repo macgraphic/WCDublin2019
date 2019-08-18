@@ -51,7 +51,6 @@
   right: 10px;
   background: #fff;
   display: block;
-  // width: 3.5em;
   text-align: center;
   color: gray;
   margin: 0;
@@ -72,10 +71,10 @@
       text-align: center;
       color: #777;
       border: 1px solid #ddd;
-      // font-size: .875rem;
       border-radius: 25px;
       width: 3em;
       height: 3em;
+      line-height: 1.75;
 
       &:hover {
         background: $medBlue;
@@ -147,14 +146,14 @@
 		.sponsor-level.cardboard a.sponsor-logo { max-width: 22%; }
 		.sponsor-level.paper a.sponsor-logo { max-width: 20%; }
 		.sponsor-level.tissue a.sponsor-logo { max-width: 18%; }
-	}
+  }
+}
+
+@media screen and (min-width: 82.5rem) {
 
   // Back to Top styles
-  // .footer-widgets-block:first-child {
-  //   width: 4.5em;
-  // }
-
-  // .hide-mobile {
-  //   display: block;
-  // }
+  .footer-widgets-block:first-child {
+    bottom: 0.5rem;
+    right: calc(50% - 37.5rem - 3rem - 0.5rem);
+  }
 }
