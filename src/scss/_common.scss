@@ -255,7 +255,7 @@ ul {
   list-style: none;
 }
 
-ul:not(.menu) li::before {
+ul:not(.menu):not(.wordcamp-organizers):not(.wordcamp-speakers):not(.wordcamp-sponsors) li::before {
   content: "\2022";
   color: $medBlue;
   font-weight: bold;
