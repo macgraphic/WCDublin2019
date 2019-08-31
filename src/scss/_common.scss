@@ -174,7 +174,7 @@ iframe {
 }
 
 .entry-content ol,
-.entry-content ul,
+.entry-content ul:not(.wp-block-gallery),
 .entry-content dl {
 	margin: 1rem auto;
 	padding-left: 2rem;
@@ -263,7 +263,7 @@ ul {
   list-style: none;
 }
 
-ul:not(.menu):not(.sub-menu):not(.wordcamp-organizers):not(.wordcamp-speakers):not(.wordcamp-sponsors) li::before {
+ul:not(.menu):not(.sub-menu):not(.wordcamp-organizers):not(.wordcamp-speakers):not(.wordcamp-sponsors):not(.wp-block-gallery) li::before {
   content: "\2022";
   color: $medBlue;
   font-weight: bold;
