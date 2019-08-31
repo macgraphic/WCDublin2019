@@ -8,7 +8,7 @@
       text-decoration: none;
       &:hover {
         text-decoration: underline;
-        color: $lightBlue;
+        color: $lightestBlue;
       }
     }
 
@@ -19,7 +19,7 @@
       padding: 0.5em 1em;
 
       &:hover {
-        background: $lightBlue;
+        background: $lightestBlue;
         color: $medBlue;
       }
     }

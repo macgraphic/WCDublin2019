@@ -158,7 +158,7 @@
         &:hover,
         &:active {
           color: $white;
-          background: $lightBlue;
+          background: $lightestBlue;
         }
       }
 
@@ -221,7 +221,7 @@
       margin: 0;
 
       a {
-        color: $lightBlue;
+        color: $lightestBlue;
         padding: 0.75rem 1.5rem;
         margin: 0 1rem 0 1rem;
         text-transform: uppercase;
@@ -231,13 +231,13 @@
       a:focus,
       a:active,
       a:focus-within {
-        background: $lightBlue;
+        background: $lightestBlue;
         color: $white;
       }
     }
 
     li:hover > a {
-      background: $lightBlue;
+      background: $lightestBlue;
       color: $white;
     }
 
@@ -251,14 +251,14 @@
         margin: 0;
 
         a {
-          color: $lightBlue;
+          color: $lightestBlue;
           padding: 0.75rem 0.5rem;
           margin: 0 0;
         }
 
         a:hover {
           color: $white;
-          background: $lightBlue;
+          background: $lightestBlue;
         }
 
         ul.sub-menu {
