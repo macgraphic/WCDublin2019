@@ -134,6 +134,10 @@
       text-align: right;
     }
 
+    #primary-menu {
+      padding-bottom: 1rem;
+    }
+
     ul {
       display: none;
     }
@@ -151,7 +155,7 @@
       a {
         display: block;
         color: $white;
-        padding: 1rem 0.5rem;
+        padding: 1rem;
         width: 100%;
         font-size: 1.2rem;
 
