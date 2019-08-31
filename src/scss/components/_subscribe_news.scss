@@ -4,15 +4,15 @@
   }
 }
 
-// @media screen and (min-width: 64rem) {
-// 	..wp-block-jetpack-subscriptions{
-//     form {
-//       display: flex;
+@media screen and (min-width: 30rem) {
+	.wp-block-jetpack-subscriptions {
+    form {
+      display: flex;
+      align-items: baseline;
 
-      // #subscribe-email {
-      // }
-      // #subscribe-submit {
-      // }
-//     }
-//   }
-// }
+      #subscribe-email {
+        width: auto;
+      }
+    }
+  }
+}
