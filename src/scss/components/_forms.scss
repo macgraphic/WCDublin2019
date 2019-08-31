@@ -3,3 +3,27 @@ form {
     padding-left: 0;
   }
 }
+
+@media screen and (min-width: 48rem) {
+  .contact-form {
+    .grunion-field-wrap:not(.grunion-field-textarea-wrap) {
+      width: calc(50% - 8px);
+      float: left;
+
+      &:nth-child(odd) {
+        margin-right: 8px;
+      }
+      &:nth-child(even) {
+        margin-left: 8px;
+      }
+
+      input {
+        width: 100%;
+      }
+    }
+
+    .grunion-field-textarea-wrap {
+      clear: both;
+    }
+  }
+}

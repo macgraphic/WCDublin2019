@@ -12,6 +12,7 @@ input[type="submit"],
   border: none;
   border-radius: 3px;
   width: 100%;
+  text-decoration: none;
 
   @media screen and (min-width: 30rem) {
     width: auto;
@@ -19,6 +20,11 @@ input[type="submit"],
 
     &:hover {
       background: $lightBlue;
+      color: #fff;
+    }
+
+    &:visited {
+      color: #fff;
     }
   }
 }

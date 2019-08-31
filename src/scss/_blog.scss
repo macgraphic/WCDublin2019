@@ -4,14 +4,6 @@
       font-size: 2.5em;
     }
 
-    a {
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-        color: $lightestBlue;
-      }
-    }
-
     .more-link {
       margin-left: 1rem;
     }
