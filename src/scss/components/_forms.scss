@@ -12,9 +12,20 @@ form {
 
       &:nth-child(odd) {
         margin-right: 8px;
+
+        .page-id-17 & {
+          margin-right: 0;
+          margin-left: 8px;
+        }
       }
+
       &:nth-child(even) {
         margin-left: 8px;
+
+        .page-id-17 & {
+          margin-left: 0;
+          margin-right: 8px;
+        }
       }
 
       input {
