@@ -13,15 +13,7 @@
     }
 
     .more-link {
-      background: $primaryColour;
-      color: $secondaryColour;
-      margin-left: 1em;
-      padding: 0.5em 1em;
-
-      &:hover {
-        background: $lightestBlue;
-        color: $medBlue;
-      }
+      margin-left: 1rem;
     }
   }
 

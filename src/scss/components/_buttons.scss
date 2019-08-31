@@ -2,7 +2,9 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"],
-.wp-block-button__link {
+.wp-block-button__link,
+.more-link {
+  display: inline-block;
   background: $medBlue;
   color: #fff;
   font-size: 1.125em;
@@ -10,14 +12,8 @@ input[type="submit"],
   border: none;
   border-radius: 3px;
   width: 100%;
-}
 
-@media screen and (min-width: 30rem) {
-  button,
-  input[type="button"],
-  input[type="reset"],
-  input[type="submit"],
-  .wp-block-button__link {
+  @media screen and (min-width: 30rem) {
     width: auto;
     min-width: 10em;
 
