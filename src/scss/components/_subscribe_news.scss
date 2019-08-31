@@ -1,4 +1,6 @@
 .wp-block-jetpack-subscriptions {
+  margin-bottom: 3rem;
+
   #subscribe-email input {
     width: 100%;
   }
@@ -12,6 +14,7 @@
 
       #subscribe-submit {
         width: auto;
+        padding-left: 0;
       }
     }
   }
