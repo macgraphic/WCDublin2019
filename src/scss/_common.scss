@@ -22,6 +22,7 @@ a:visited {
 
 .site-content {
   min-height: calc(100vh - 210px);
+  overflow: hidden;
 }
 
 .page-content,
@@ -147,8 +148,12 @@ iframe {
 	margin: 0 auto;
 }
 
-.wp-block-columns .wp-block-column p {
-	padding: 0.75rem;
+.wp-block-columns {
+  padding: 0;
+
+  .wp-block-column p {
+    padding: 0.75rem;
+  }
 }
 
 .wp-block-cover-image,
@@ -265,6 +270,8 @@ ul:not(.menu):not(.wordcamp-organizers):not(.wordcamp-speakers):not(.wordcamp-sp
 }
 
 .wp-block-image {
+  padding: 0;
+
   &.alignfull,
   &.alignwide {
     padding: 0;
@@ -295,11 +302,11 @@ ul:not(.menu):not(.wordcamp-organizers):not(.wordcamp-speakers):not(.wordcamp-sp
     }
 
     &.alignleft {
-      margin-left: -60px;
+      margin-left: -75px;
     }
 
     &.alignright {
-      margin-right: -60px;
+      margin-right: -75px;
     }
   }
 }

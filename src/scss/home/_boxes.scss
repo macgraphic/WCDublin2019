@@ -9,6 +9,8 @@
     text-align: center;
     padding: 0.5em;
     border: 1px solid $borderColour;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   &__title {
@@ -33,5 +35,23 @@
     &__ticket:before {
       background-image: url("https://2019.dublin.wordcamp.org/files/2019/07/tickets.png");
     }
+  }
+
+  @media screen and (min-width: 30rem) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .wp-block-column {
+      background: $white;
+      text-align: center;
+      padding: 0.5em;
+      border: 1px solid $borderColour;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (min-width: 49rem) {
+    justify-content: space-between;
   }
 }
