@@ -1,15 +1,33 @@
 .blog {
   .post {
+    margin-bottom: 4em;
+
     .entry-title {
       font-size: 2.5em;
+      margin-top: 1rem;
+      margin-bottom: .5em;
+
+      a {
+        text-decoration: none;
+      }
     }
 
     .more-link {
       margin-left: 1rem;
     }
+
+    .entry-footer {
+      display: none;
+    }
   }
 
   .content-area {
     margin-top: 4em;
+  }
+
+  @media screen and (min-width: 30rem) {
+    .post {
+      margin-bottom: 5em;
+    }
   }
 }

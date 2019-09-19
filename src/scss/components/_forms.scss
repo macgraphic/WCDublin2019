@@ -4,6 +4,11 @@ form {
   }
 }
 
+.comment-form-cookies-consent label,
+.comment-subscription-form label {
+  margin-left: .5em;
+}
+
 @media screen and (min-width: 48rem) {
   .contact-form {
     .grunion-field-wrap:not(.grunion-field-textarea-wrap) {
@@ -14,8 +19,7 @@ form {
         margin-right: 8px;
 
         .page-id-17 &,
-        .page-id-19 &,
-        .page-id-546 & {
+        .page-id-19 & {
           margin-right: 0;
           margin-left: 8px;
         }
@@ -25,8 +29,7 @@ form {
         margin-left: 8px;
 
         .page-id-17 &,
-        .page-id-19 &,
-        .page-id-546 & {
+        .page-id-19 & {
           margin-left: 0;
           margin-right: 8px;
         }
@@ -39,6 +42,18 @@ form {
 
     .grunion-field-textarea-wrap {
       clear: both;
+    }
+  }
+
+  .comment-form {
+    .comment-form-author,
+    .comment-form-email,
+    .comment-form-url {
+      width: 50%;
+      float: left;
+    }
+    .comment-form-url {
+      width: 100%;
     }
   }
 }
