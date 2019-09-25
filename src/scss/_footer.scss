@@ -116,6 +116,11 @@
 @media screen and (min-width: 30rem) {
   .sponsor-level {
     a {
+      width: 20%;
+      float: left;
+      display: flex;
+      align-items: center;
+
       &:nth-child(odd),
       &:nth-child(even) {
         padding: 0.5rem 1rem;
@@ -124,27 +129,26 @@
 
     &.platinum a {
       width: 50%;
-      float: left;
     }
 
     &.gold a {
       width: 33%;
-      float: left;
     }
 
     &.silver a {
       width: 25%;
-      float: left;
     }
 
     &.bronze a {
       width: 20%;
-      float: left;
     }
 
     &.venue-sponsor a {
       width: 33%;
-      float: left;
+    }
+
+    &.in-kind a {
+      width: 20%;
     }
   }
 }
@@ -175,8 +179,12 @@
     }
 
     &.venue-sponsor a {
-      width: 33%;
+      width: 25%;
       float: left;
+    }
+
+    &.in-kind a {
+      width: 16%;
     }
   }
 }
