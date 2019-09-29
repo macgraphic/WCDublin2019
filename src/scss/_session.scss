@@ -1,0 +1,33 @@
+.single-wcb_session {
+
+  h2 {
+    margin-top: 30px;
+  }
+
+  ul.wordcamp-speakers {
+    padding-left: 1rem;
+  }
+
+  .wordcamp-speakers__title {
+    padding: 0;
+  }
+
+  .wordcamp-speakers__content {
+    p {
+      padding: 0;
+    }
+
+    a {
+      display: none;
+    }
+  }
+
+  h2.session-speakers,
+  #session-speaker-names {
+    display: none;
+  }
+
+  .session-categories-links {
+    padding: 0 1rem;
+  }
+}
