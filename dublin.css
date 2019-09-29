@@ -9,3 +9,7 @@ body{font-family:Open Sans,sans-serif;background:#fff;word-wrap:break-word;color
 .wcb-session-category-security::after { content: 'Security'; }
 .wcb-session-category-seo::after { content: 'SEO'; }
 .wcb-session-category-wellbeing::after { content: 'Wellbeing'; }
+
+
+.wcb-session-category-content-development::after { content: 'Content / Development'; }
+.wcb-session-category-business-content::after { content: 'Business / Content'; }
