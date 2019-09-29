@@ -85,13 +85,13 @@
       background-position: center;
       background-repeat: no-repeat;
       transform: rotate(-20deg);
-      transition: all ease .4s;
+      transition: all ease .35s;
     }
 
     &:hover::after,
     &:focus::after  {
       right: -40px;
-      transform: rotate(-30deg);
+      transform: rotate(-25deg);
     }
 
     .page-id-267 & {
