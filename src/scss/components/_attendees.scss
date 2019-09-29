@@ -12,9 +12,9 @@
 
     li {
       text-align: center;
-      width: auto;
+      width: 50%;
       height: auto;
-      margin-right: 20px;
+      margin-bottom: 60px;
     }
   }
 
@@ -35,12 +35,35 @@
     margin-left: 0;
   }
 
-  // @media screen and (max-width: 30rem) {
-  // }
+  @media screen and (min-width: 30rem) {
+    .tix-attendee-list {
+      li {
+        width: 33%;
+      }
+    }
+  }
 
-  // @media screen and (max-width: 48rem) {
-  // }
+  @media screen and (min-width: 48rem) {
+    .tix-attendee-list {
+      li {
+        width: 25%;
+      }
+    }
+  }
 
-  // @media screen and (max-width: 64rem) {
-  // }
+  @media screen and (min-width: 60rem) {
+    .tix-attendee-list {
+      li {
+        width: 20%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 70rem) {
+    .tix-attendee-list {
+      li {
+        width: 16%;
+      }
+    }
+  }
 }
