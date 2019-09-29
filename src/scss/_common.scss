@@ -280,10 +280,6 @@ ul:not(.menu):not(.sub-menu):not(.wordcamp-organizers):not(.wordcamp-speakers):n
 .wp-block-image {
   padding: 0;
 
-  img {
-    box-shadow: .1875rem .625rem 1.875rem rgba(0,34,71,.35) !important;
-  }
-
   &.alignfull,
   &.alignwide {
     padding: 0;
@@ -294,33 +290,44 @@ ul:not(.menu):not(.sub-menu):not(.wordcamp-organizers):not(.wordcamp-speakers):n
       height: auto;
     }
   }
-}
-@media screen and (max-width: 64rem) {
-  .wp-block-image {
+
+  @media screen and (max-width: 64rem) {
     .alignright,
     .alignleft {
       float: none;
       margin: 0;
     }
   }
-}
 
-@media screen and (min-width: 64rem) {
-  .wp-block-image figure {
-    &.alignleft,
-    &.alignright {
-      width: 115%;
-      height: auto;
-    }
+  @media screen and (min-width: 64rem) {
+    figure {
+      &.alignleft,
+      &.alignright {
+        width: 115%;
+        height: auto;
+      }
 
-    &.alignleft {
-      margin-left: -75px;
-    }
+      &.alignleft {
+        margin-left: -75px;
+      }
 
-    &.alignright {
-      margin-right: -75px;
+      &.alignright {
+        margin-right: -75px;
+      }
     }
   }
+}
+
+.entry-image,
+.wp-block-image,
+.wp-block-gallery {
+  img {
+    box-shadow: .1875rem .625rem 1.875rem rgba(0,34,71,.35) !important;
+  }
+}
+
+.wp-block-cover {
+  box-shadow: .1875rem .625rem 1.875rem rgba(0,34,71,.35) !important;
 }
 
 * {
