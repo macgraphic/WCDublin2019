@@ -280,6 +280,10 @@ ul:not(.menu):not(.sub-menu):not(.wordcamp-organizers):not(.wordcamp-speakers):n
 .wp-block-image {
   padding: 0;
 
+  img {
+    box-shadow: .1875rem .625rem 1.875rem rgba(0,34,71,.35) !important;
+  }
+
   &.alignfull,
   &.alignwide {
     padding: 0;
