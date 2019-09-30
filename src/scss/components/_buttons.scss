@@ -1,4 +1,4 @@
-button:not(.menu-toggle):not(.tix_other_payment_options):not(.dropdown-toggle),
+button:not(.menu-toggle, .tix_other_payment_options, .dropdown-toggle),
 input[type="button"],
 input[type="reset"],
 input[type="submit"],
@@ -15,7 +15,7 @@ input[type="submit"],
   text-decoration: none;
   text-transform: capitalize;
 
-  &:not(.more-link):not(.tix-checkout-button):after {
+  &:not(.more-link, .tix-checkout-button):after {
     content: "→";
     display: inline-block;
     transition: all .15s ease-out;
