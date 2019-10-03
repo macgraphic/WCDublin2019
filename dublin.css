@@ -2,4 +2,4 @@ body{font-family:Open Sans,sans-serif;background:#fff;word-wrap:break-word;color
 
 
 /* Remove box-shadow from Sponsor Logos  */
-body.single-wcb_sponsor article.wcb_sponsor .entry-image img { box-shadow: none; }
+body.single-wcb_sponsor article.wcb_sponsor .entry-image img { box-shadow: none !important; }
