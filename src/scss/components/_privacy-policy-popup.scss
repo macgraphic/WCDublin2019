@@ -1,0 +1,13 @@
+
+  #eu-cookie-law {
+    .accept {
+      background-color: $medBlue;
+      color: #fff;
+    }
+}
+
+@media (max-width: 30rem) {
+  #eu-cookie-law {
+      padding-bottom: 70px;
+  }
+}

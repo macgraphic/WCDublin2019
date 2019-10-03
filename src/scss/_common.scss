@@ -326,6 +326,12 @@ ul:not(.menu, .sub-menu, .wordcamp-organizers, .wordcamp-speakers, .wordcamp-spo
   }
 }
 
+.wcb_sponsor .entry-image {
+  img {
+    box-shadow: none !important;
+  }
+}
+
 .wp-block-cover {
   box-shadow: .1875rem .625rem 1.875rem rgba(0,34,71,.35) !important;
 }

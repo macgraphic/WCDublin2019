@@ -12,7 +12,6 @@
 
   .site-branding {
     position: relative;
-    padding: 1.5em 0 0;
 
     .site-title {
       padding: 0;
@@ -49,7 +48,7 @@
   }
 
   .custom-header {
-    height: 370px;
+    height: auto;
     width: 100%;
     max-width: 100%;
     background-color: $primaryColour;
@@ -78,7 +77,7 @@
       height: 150px;
       content: '';
       position: absolute;
-      top: 190px;
+      top: 150px;
       right: -70px;
       background: url('/files/2019/09/Wapuu-Dublin-2019-CMYK2-150x150.png');
       background-size: contain;
@@ -313,10 +312,10 @@
 
     .site-description {
       font-size: 2.2rem;
+      margin-bottom: 1rem;
     }
 
     .custom-header {
-      height: 470px;
       background-image: url('https://2019.dublin.wordcamp.org/files/2019/07/wcdublin_home_banner.jpg');
 
       .page-id-267 & {
