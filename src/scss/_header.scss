@@ -12,6 +12,7 @@
 
   .site-branding {
     position: relative;
+    overflow: hidden;
 
     &::after {
       display: block;
