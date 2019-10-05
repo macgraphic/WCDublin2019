@@ -395,7 +395,7 @@
 
         ul.sub-menu {
           background: $primaryColour;
-          margin: 4rem 0 0 0;
+          margin: 4.125rem 0 0 0;
 
           li {
             margin: 0;
@@ -411,6 +411,21 @@
 
           ul.sub-menu {
             margin-top: 0;
+          }
+        }
+
+        .menu-item-has-children {
+          > a::after {
+            content: "▼";
+            color: #fff;
+            font-size: .675rem;
+            position: relative;
+            bottom: 1px;
+            margin-left: 8px;
+          }
+
+          > a:hover::after {
+            color: $primaryColour;
           }
         }
       }
