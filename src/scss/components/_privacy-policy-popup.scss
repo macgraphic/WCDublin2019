@@ -8,6 +8,10 @@
     background-color: $medBlue;
     color: #fff;
     padding: .5rem 1rem !important;
+
+    :hover {
+      color: #fff;
+    }
   }
 }
 
