@@ -8,9 +8,14 @@ table.tix_tickets_table {
   display: inline-table;
 	margin: 1rem auto 2rem auto;
   border: 1px solid $medBlue;
+  border-collapse: separate;
+  white-space: unset;
 
   @media screen and (max-width: 48rem) {
-    table-layout: fixed;
+    &.tix-order-summary,
+    &.tix-attendee-form {
+      table-layout: fixed;
+    }
   }
 
 	th {
@@ -42,15 +47,12 @@ table.tix_tickets_table {
 }
 
 table.tix-order-summary {
-  @media screen and (max-width: 30rem) {
-    display: block;
-    overflow-x: scroll;
+  .tix-column-description {
+    width: auto;
   }
 }
 
 table.tix-attendee-form {
-  // TODO: Make td on mobile 100%
-
   input[type="text"],
   input[type="email"],
   input[type="url"],
@@ -62,4 +64,12 @@ table.tix-attendee-form {
 
 .tix-column-remaining {
 	display: none;
+}
+
+
+
+@media screen and (min-width: 30rem) {
+  table.tix_tickets_table {
+    border-collapse: collapse;
+  }
 }
