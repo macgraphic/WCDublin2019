@@ -1,9 +1,14 @@
 
-  #eu-cookie-law {
-    .accept {
-      background-color: $medBlue;
-      color: #fff;
-    }
+.widget_eu_cookie_law_widget {
+  max-width: 50rem;
+}
+
+#eu-cookie-law {
+  .accept {
+    background-color: $medBlue;
+    color: #fff;
+    padding: .5rem 1rem !important;
+  }
 }
 
 @media (max-width: 30rem) {
