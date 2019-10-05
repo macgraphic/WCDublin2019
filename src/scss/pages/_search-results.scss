@@ -1,0 +1,22 @@
+.search-results {
+  .site-main {
+    margin: 0 1rem;
+  }
+
+  .page-header {
+    padding: 0;
+  }
+
+  .more-link {
+    display: table;
+    margin-top: 1rem;
+  }
+
+  @media screen and (min-width: 64rem) {
+    .posts-navigation {
+      width: 72rem;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+}

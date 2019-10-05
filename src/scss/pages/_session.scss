@@ -1,5 +1,4 @@
 .single-wcb_session {
-
   h2 {
     margin-top: 30px;
   }
@@ -29,5 +28,29 @@
 
   .session-categories-links {
     padding: 0 1rem;
+  }
+
+  .nav-links {
+    .nav-previous {
+      display: flex;
+
+      &::before {
+        content: "←";
+        margin-right: 0.5rem;
+        align-self: center;
+      }
+    }
+
+    .nav-next {
+      display: flex;
+      justify-content: flex-end;
+
+      &::after {
+        content: "→";
+        margin-left: 0.5rem;
+        align-self: center;
+        color: $primaryColour;
+      }
+    }
   }
 }

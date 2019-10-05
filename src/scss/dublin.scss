@@ -1,21 +1,26 @@
+// utilities
 @import "./utils/variables";
+
 @import "./common";
-@import "./tickets";
-@import "./schedule";
-@import "./organizers";
-@import "./session";
-@import "./speaker";
-@import "./speakers";
-@import "./sponsors";
 @import "./header";
 @import "./footer";
-@import "./blog";
-@import "./singular";
 @import "./sidebar";
-@import "./news";
 
 // home
 @import "./home/boxes";
+
+// pages
+@import "./pages/news";
+@import "./pages/blog";
+@import "./pages/singular";
+@import "./pages/tickets";
+@import "./pages/schedule";
+@import "./pages/organizers";
+@import "./pages/session";
+@import "./pages/speaker";
+@import "./pages/speakers";
+@import "./pages/sponsors";
+@import "./pages/search-results";
 
 /* Import all component styles */
 @import "./components/components";

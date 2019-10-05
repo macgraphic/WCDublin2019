@@ -425,7 +425,8 @@
             margin-left: 7px;
           }
 
-          > a:hover::after {
+          > a:hover::after,
+          &.current-menu-item a::after {
             color: $primaryColour;
           }
         }

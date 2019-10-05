@@ -15,7 +15,7 @@ input[type="submit"],
   text-decoration: none;
   text-transform: capitalize;
 
-  &:not(.more-link, .tix-checkout-button):after {
+  &:not(.more-link, .tix-checkout-button)::after {
     content: "→";
     display: inline-block;
     transition: all .15s ease-out;
@@ -32,7 +32,7 @@ input[type="submit"],
       background: $lightBlue !important;
       color: #fff;
 
-      &:not(.more-link):after {
+      &:not(.more-link, .tix-checkout-button):after {
         left: 5px;
       }
 

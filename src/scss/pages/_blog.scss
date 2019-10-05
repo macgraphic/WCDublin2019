@@ -14,6 +14,10 @@
 
     .more-link {
       margin-left: 1rem;
+
+      &::after {
+        display: none;
+      }
     }
 
     .entry-footer {

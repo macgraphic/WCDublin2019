@@ -1,0 +1,21 @@
+.widget_search {
+  .search-field {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  @media screen and (min-width: 30rem) {
+    .widget_search {
+      .search-form {
+        display: flex;
+        justify-content: center;
+      }
+
+      .search-field {
+        width: 16rem;
+        margin-bottom: 0;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
