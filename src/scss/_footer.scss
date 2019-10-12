@@ -45,6 +45,10 @@
 .jetpack_widget_social_icons {
   text-align: center;
 
+  .jetpack-social-widget-item {
+    margin: 0 0.5rem;
+  }
+
   a {
     .icon {
       position: relative;
