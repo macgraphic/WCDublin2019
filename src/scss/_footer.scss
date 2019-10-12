@@ -42,6 +42,23 @@
   }
 }
 
+.jetpack_widget_social_icons {
+  text-align: center;
+
+  a {
+    .icon {
+      position: relative;
+      top: 0;
+      transition: all .3s ease-in-out;
+    }
+
+    &:hover .icon {
+      top: -5px;
+    }
+  }
+
+}
+
 // style the Back to Top button
 // old HTML code
 // <span class="hide-mobile">Back to </span>Top ↑

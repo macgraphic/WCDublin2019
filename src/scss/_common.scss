@@ -269,7 +269,15 @@ ul {
   list-style: none;
 }
 
-ul:not(.menu, .sub-menu, .wordcamp-organizers, .wordcamp-speakers, .wordcamp-sponsors, .wp-block-gallery, .tix-attendee-list) li::before {
+ul:not(
+  .menu,
+  .sub-menu,
+  .wordcamp-organizers,
+  .wordcamp-speakers,
+  .wordcamp-sponsors,
+  .wp-block-gallery,
+  .tix-attendee-list,
+  .jetpack-social-widget-list) li::before {
   content: "\2022";
   color: $medBlue;
   font-weight: bold;
