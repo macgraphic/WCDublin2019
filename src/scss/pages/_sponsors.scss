@@ -8,6 +8,88 @@
   }
 }
 
+.wordcamp-sponsors {
+  padding-left: 1rem !important;
+  overflow: auto;
+
+  &--platinum {
+    .wordcamp-post-list__post {
+      width: 47%;
+      margin-right: 3%;
+      &:nth-child(n2) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &--gold,
+  &--venue {
+    .wordcamp-post-list__post {
+      width: 30%;
+      margin-right: 3%;
+      &:nth-child(n3) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &--silver {
+    .wordcamp-post-list__post {
+      width: 22%;
+      margin-right: 3%;
+      &:nth-child(n4) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &--bronze,
+  &--in-kind {
+    .wordcamp-post-list__post {
+      width: 17%;
+      margin-right: 3%;
+      &:nth-child(n5) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .wordcamp-post-list__post {
+    border: 1px solid rgba(88,88,88,0.15);
+    background-color: #fafafa;
+    float: left;
+    margin-bottom: 30px;
+
+    &:hover {
+      background-color: #eee;
+    }
+  }
+
+  .wordcamp-image__featured-image-link {
+    position: relative;
+    display: block;
+    padding-top: 100%;
+  }
+  .wordcamp-image__featured-image {
+    position: absolute;
+    top: 34%;
+    padding: 0.25rem;
+  }
+
+  &--venue {
+    .wordcamp-image__featured-image {
+      top: 27%;
+    }
+  }
+
+  &--in-kind {
+    .wordcamp-image__featured-image {
+      top: 17%;
+    }
+  }
+}
+
+
 .page-slug-sponsors .tix-clear {
   display: none;
 }
@@ -18,6 +100,50 @@
 
     img {
       max-width: 18rem;
+    }
+  }
+}
+
+
+@media screen and (min-width: 48rem) {
+  .wordcamp-sponsors {
+
+    &--platinum {
+      .wordcamp-post-list__post {
+        width: 30%;
+        &:nth-child(n3) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    &--gold,
+    &--venue {
+      .wordcamp-post-list__post {
+        width: 22%;
+        &:nth-child(n4) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    &--silver {
+      .wordcamp-post-list__post {
+        width: 17%;
+        &:nth-child(n5) {
+          margin-right: 0;
+        }
+      }
+    }
+
+    &--bronze,
+    &--in-kind {
+      .wordcamp-post-list__post {
+        width: 12%;
+        &:nth-child(n6) {
+          margin-right: 0;
+        }
+      }
     }
   }
 }
