@@ -103,6 +103,10 @@ table.wcpt-schedule {
 			display: none;
     }
   }
+  .dashicons:before {
+    top: 1px;
+    position: relative;
+  }
 }
 
 
@@ -123,3 +127,4 @@ table.wcpt-schedule {
     }
   }
 }
+
