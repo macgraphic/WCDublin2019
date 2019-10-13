@@ -122,7 +122,9 @@ table.wcpt-schedule {
     .wcpt-time-900am .wcb-session-category-community:nth-child(3),
     .wcpt-time-405pm td:nth-child(2),
     .wcpt-time-420pm td:nth-child(3),
-    .wcpt-time-425pm td:nth-child(2) {
+    .wcpt-time-425pm td:nth-child(2),
+    .wcpt-time-150pm td:nth-child(3),
+    .wcpt-time-130pm td:nth-child(2) {
       border-bottom: none;
     }
   }
