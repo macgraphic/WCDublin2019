@@ -1,150 +1,150 @@
-.wcorg-sponsor {
-  margin: 2em 0;
-
-  img {
-    margin-left: 1rem;
-    max-width: calc(100% - 2rem);
-    height: auto;
-  }
-}
-
-.wordcamp-sponsors {
-  padding-left: 1rem !important;
-  overflow: auto;
-
-  .wordcamp-post-list__post {
-    border: 1px solid rgba(88,88,88,0.15);
-    background-color: #fafafa;
-    float: left;
-    margin-right: 3%;
-    margin-bottom: 30px;
-
-    &:hover {
-      background-color: #eee;
-    }
-  }
-
-  .wordcamp-image__featured-image-link {
-    position: relative;
-    display: block;
-    padding-top: 100%;
-  }
-  .wordcamp-image__featured-image {
-    position: absolute;
-    top: 34%;
-    padding: 0.25rem;
-  }
-
-  &--venue {
-    .wordcamp-image__featured-image {
-      top: 27%;
-      padding: .5rem;
-    }
-  }
-
-  &--in-kind {
-    .wordcamp-image__featured-image {
-      top: 17%;
-    }
-  }
-}
-
-
-.page-slug-sponsors .tix-clear {
-  display: none;
-}
-
-@media screen and (min-width: 30rem) {
-  .wcorg-sponsor {
-    margin: 3em 0;
+.page-slug-sponsors {
+    .wcorg-sponsor {
+    margin: 2em 0;
 
     img {
-      max-width: 18rem;
+      margin-left: 1rem;
+      max-width: calc(100% - 2rem);
+      height: auto;
     }
   }
-}
-
-
-@media screen and (max-width: 48rem) {
   .wordcamp-sponsors {
+    padding-left: 1rem !important;
+    overflow: auto;
 
-    &--platinum {
-      .wordcamp-post-list__post {
-        width: 47%;
-        &:nth-child(2n) {
-          margin-right: 0;
-        }
+    .wordcamp-post-list__post {
+      border: 1px solid rgba(88,88,88,0.15);
+      background-color: #fafafa;
+      float: left;
+      margin-right: 3%;
+      margin-bottom: 30px;
+
+      &:hover {
+        background-color: #eee;
       }
     }
 
-    &--gold,
+    .wordcamp-image__featured-image-link {
+      position: relative;
+      display: block;
+      padding-top: 100%;
+    }
+    .wordcamp-image__featured-image {
+      position: absolute;
+      top: 34%;
+      padding: 0.25rem;
+    }
+
     &--venue {
-      .wordcamp-post-list__post {
-        width: 30%;
-        &:nth-child(3n) {
-          margin-right: 0;
-        }
+      .wordcamp-image__featured-image {
+        top: 27%;
+        padding: .5rem;
       }
     }
 
-    &--silver {
-      .wordcamp-post-list__post {
-        width: 22%;
-        &:nth-child(4n) {
-          margin-right: 0;
-        }
-      }
-    }
-
-    &--bronze,
     &--in-kind {
-      .wordcamp-post-list__post {
-        width: 17%;
-        &:nth-child(5n) {
-          margin-right: 0;
-        }
+      .wordcamp-image__featured-image {
+        top: 17%;
       }
     }
   }
-}
 
-@media screen and (min-width: 48rem) {
-  .wordcamp-sponsors {
+  .page-slug-sponsors .tix-clear {
+    display: none;
+  }
 
-    &--platinum {
-      .wordcamp-post-list__post {
-        width: 30%;
-        &:nth-child(3n) {
-          margin-right: 0;
+  @media screen and (min-width: 30rem) {
+    .wcorg-sponsor {
+      margin: 3em 0;
+
+      img {
+        max-width: 18rem;
+      }
+    }
+  }
+
+
+  @media screen and (max-width: 48rem) {
+    .wordcamp-sponsors {
+
+      &--platinum {
+        .wordcamp-post-list__post {
+          width: 47%;
+          &:nth-child(2n) {
+            margin-right: 0;
+          }
+        }
+      }
+
+      &--gold,
+      &--venue {
+        .wordcamp-post-list__post {
+          width: 30%;
+          &:nth-child(3n) {
+            margin-right: 0;
+          }
+        }
+      }
+
+      &--silver {
+        .wordcamp-post-list__post {
+          width: 22%;
+          &:nth-child(4n) {
+            margin-right: 0;
+          }
+        }
+      }
+
+      &--bronze,
+      &--in-kind {
+        .wordcamp-post-list__post {
+          width: 17%;
+          &:nth-child(5n) {
+            margin-right: 0;
+          }
         }
       }
     }
+  }
 
-    &--gold,
-    &--venue {
-      .wordcamp-post-list__post {
-        width: 22%;
-        &:nth-child(4n) {
-          margin-right: 0;
+  @media screen and (min-width: 48rem) {
+    .wordcamp-sponsors {
+
+      &--platinum {
+        .wordcamp-post-list__post {
+          width: 30%;
+          &:nth-child(3n) {
+            margin-right: 0;
+          }
         }
       }
-    }
 
-    &--silver {
-      .wordcamp-post-list__post {
-        width: 17%;
-        &:nth-child(5n) {
-          margin-right: 0;
+      &--gold,
+      &--venue {
+        .wordcamp-post-list__post {
+          width: 22%;
+          &:nth-child(4n) {
+            margin-right: 0;
+          }
         }
       }
-    }
 
-    &--bronze,
-    &--in-kind {
-      .wordcamp-post-list__post {
-        width: 12%;
-        &:nth-child(6n) {
-          margin-right: 0;
+      &--silver {
+        .wordcamp-post-list__post {
+          width: 17%;
+          &:nth-child(5n) {
+            margin-right: 0;
+          }
+        }
+      }
+
+      &--bronze,
+      &--in-kind {
+        .wordcamp-post-list__post {
+          width: 12%;
+          &:nth-child(6n) {
+            margin-right: 0;
+          }
         }
       }
     }
