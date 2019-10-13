@@ -32,13 +32,12 @@
     .wordcamp-image__featured-image {
       position: absolute;
       top: 34%;
-      padding: 0.25rem;
+      padding: 0.5rem;
     }
 
     &--venue {
       .wordcamp-image__featured-image {
         top: 27%;
-        padding: .5rem;
       }
     }
 
@@ -69,7 +68,7 @@
 
       &--platinum {
         .wordcamp-post-list__post {
-          width: 47%;
+          width: 48.5%;
           &:nth-child(2n) {
             margin-right: 0;
           }
@@ -79,7 +78,7 @@
       &--gold,
       &--venue {
         .wordcamp-post-list__post {
-          width: 30%;
+          width: 31%;
           &:nth-child(3n) {
             margin-right: 0;
           }
@@ -88,7 +87,7 @@
 
       &--silver {
         .wordcamp-post-list__post {
-          width: 22%;
+          width: 22.75%;
           &:nth-child(4n) {
             margin-right: 0;
           }
@@ -98,7 +97,7 @@
       &--bronze,
       &--in-kind {
         .wordcamp-post-list__post {
-          width: 17%;
+          width: 17.6%;
           &:nth-child(5n) {
             margin-right: 0;
           }
@@ -112,7 +111,7 @@
 
       &--platinum {
         .wordcamp-post-list__post {
-          width: 30%;
+          width: 31.3%;
           &:nth-child(3n) {
             margin-right: 0;
           }
@@ -122,7 +121,7 @@
       &--gold,
       &--venue {
         .wordcamp-post-list__post {
-          width: 22%;
+          width: 22.75%;
           &:nth-child(4n) {
             margin-right: 0;
           }
@@ -131,7 +130,7 @@
 
       &--silver {
         .wordcamp-post-list__post {
-          width: 17%;
+          width: 17.6%;
           &:nth-child(5n) {
             margin-right: 0;
           }
@@ -141,7 +140,7 @@
       &--bronze,
       &--in-kind {
         .wordcamp-post-list__post {
-          width: 12%;
+          width: 14.1%;
           &:nth-child(6n) {
             margin-right: 0;
           }
