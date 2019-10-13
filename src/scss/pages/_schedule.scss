@@ -79,8 +79,7 @@ table.wcpt-schedule {
   tr.break,
   tr.short-break,
   tr.after-party,
-  tr.wcpt-time-110pm,
-  tr.wcpt-time-120pm {
+  tr.wcpt-time-110pm td {
 		background-color: rgba(61,4,102,0.2) !important;
 
 		a.wcpt-session-title {
@@ -94,4 +93,23 @@ table.wcpt-schedule {
 			display: none;
 		}
 	}
+}
+
+
+@media screen and (min-width: 43.75rem) {
+  table.wcpt-schedule {
+
+    .wcpt-session-empty {
+      border-top: none;
+    }
+
+    .wcpt-time-205pm td:nth-child(3),
+    .wcpt-time-215pm td:nth-child(2),
+    .wcpt-time-900am .wcb-session-category-community:nth-child(3),
+    .wcpt-time-405pm td:nth-child(2),
+    .wcpt-time-420pm td:nth-child(3),
+    .wcpt-time-425pm td:nth-child(2) {
+      border-bottom: none;
+    }
+  }
 }
