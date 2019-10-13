@@ -76,8 +76,11 @@ table.wcpt-schedule {
 	}
 
 	tr.lunch,
-	tr.break,
-	tr.after-party {
+  tr.break,
+  tr.short-break,
+  tr.after-party,
+  tr.wcpt-time-110pm,
+  tr.wcpt-time-120pm {
 		background-color: rgba(61,4,102,0.2) !important;
 
 		a.wcpt-session-title {
