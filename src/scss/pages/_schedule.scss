@@ -83,19 +83,26 @@ table.wcpt-schedule {
   tr.wcpt-time-915am,
   tr.wcpt-time-545pm,
   tr.wcpt-time-445pm {
-		background-color: rgba(61,4,102,0.2) !important;
+    background-color: rgba(61,4,102,0.2) !important;
+  }
 
-		a.wcpt-session-title {
-			font-weight: 400;
-			font-style: italic;
-			font-size: 1.2rem;
-			margin-right: 2rem;
-		}
+	tr.lunch,
+  tr.break,
+  tr.short-break,
+  tr.after-party,
+  tr.wcpt-time-110pm {
+
+		// a.wcpt-session-title {
+		// 	font-weight: 400;
+		// 	font-style: italic;
+		// 	font-size: 1.2rem;
+		// 	margin-right: 2rem;
+    // }
 
 		.wcb-session-favourite-icon {
 			display: none;
-		}
-	}
+    }
+  }
 }
 
 
