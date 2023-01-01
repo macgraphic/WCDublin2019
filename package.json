@@ -28,22 +28,22 @@
   "homepage": "https://github.com/macgraphic/WCDublin2019#readme",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
-    "css-loader": "^3.0.0",
+    "css-loader": "^6.7.3",
     "cssnano": "^4.1.10",
-    "file-loader": "^4.0.0",
-    "mini-css-extract-plugin": "^0.7.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.7.2",
     "node-sass": "^4.12.0",
     "postcss": "^7.0.17",
     "postcss-import": "^12.0.1",
-    "postcss-loader": "^3.0.0",
+    "postcss-loader": "^7.0.2",
     "postcss-preset-env": "^6.6.0",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^13.2.0",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended": "^2.2.0",
     "stylelint-config-recommended-scss": "^3.3.0",
     "stylelint-scss": "^3.8.0",
     "stylelint-webpack-plugin": "^0.10.5",
-    "webpack": "^4.35.2",
-    "webpack-cli": "^3.3.5"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
